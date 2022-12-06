@@ -15,8 +15,8 @@ collections:
     editor:
       preview: false # Disable the editor preview and use instead 'preview links'
     fields: # The fields for each document, usually in front matter
-      - { name: "title", label: "Title" }
-      - { name: "description", label: "Description" }
+      - { name: "title", label: "Título" }
+      - { name: "descripcion", label: "Descripción" }
       - { name: "link", label: "Enlace de video" }
       - { name: "date", label: "Date", widget: "datetime" }
   - name: "novedades" # Used in routes, e.g., /admin/collections/blog
@@ -27,9 +27,9 @@ collections:
     editor:
       preview: false # Disable the editor preview and use instead 'preview links'
     fields: # The fields for each document, usually in front matter
-      - { name: "title", label: "Title" }
-      - { label: "Image", name: "image", widget: "image" }
-      - { name: "description", label: "Description" }
+      - { name: "title", label: "Título" }
+      - { label: "Imagen", name: "image", widget: "image" }
+      - { name: "description", label: "Descripción" }
       - { name: "autor", label: "Autor" }
       - { name: "correo", label: "Correo" }
       - { name: "date", label: "Date", widget: "datetime" }
@@ -41,9 +41,9 @@ collections:
           default: false,
           hint: "Display posts in home's highlights",
         }
-  - name: "partidospublicos" # Used in routes, e.g., /admin/collections/blog
-    label: "Partidos Públicos" # Used in the UI
-    folder: "src/partidospublicos" # The path to the folder where the documents are stored
+  - name: "comitescivicos" # Used in routes, e.g., /admin/collections/blog
+    label: "Comites Cívicos" # Used in the UI
+    folder: "src/comitescivicos" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
@@ -71,5 +71,85 @@ collections:
       - { name: "instagram", label: "Instagram" }
       - { name: "tiktok", label: "TikTok" }
       - { name: "fundacion", label: "Fecha de Fundación", widget: "datetime" }
-
+  - name: "partidospublicos" # Used in routes, e.g., /admin/collections/blog
+    label: "Partidos Públicos" # Used in the UI
+    folder: "src/partidospublicos" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false # Disable the editor preview and use instead 'preview links'
+    fields: # The fields for each document, usually in front matter
+      - { name: "title", label: "Nombre Completo" }
+      - { name: "nombrecorto", label: "Nombre Corto" }
+      - {
+          name: "estado ",
+          label: "Estado",
+          widget: "select",
+          options: ["Activo", "Inactivo"],
+        }
+      - { name: "secretario", label: "Secretario(a) general" }
+      - {
+          name: "secretariofunciones",
+          label: "Secretario General en funciones",
+        }
+      - { name: "direccion", label: "Dirección" }
+      - { name: "paginaweb", label: "Página Web" }
+      - { name: "telefono", label: "Teléfono" }
+      - { name: "correo", label: "Correo Electrónico" }
+      - { name: "facebook", label: "Facebook" }
+      - { name: "twitter", label: "Twitter" }
+      - { name: "instagram", label: "Instagram" }
+      - { name: "tiktok", label: "TikTok" }
+      - { name: "fundacion", label: "Fecha de Fundación", widget: "datetime" }
+  - name: "afiliados" # Used in routes, e.g., /admin/collections/blog
+    label: "Afiliados" # Used in the UI
+    folder: "src/afiliados" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false # Disable the editor preview and use instead 'preview links'
+    fields: # The fields for each document, usually in front matter
+      - {
+          label: "Partido",
+          name: "title",
+          widget: "relation",
+          collection: "partidospublicos",
+          search_fields: ["title"],
+          value_field: "title",
+          multiple: false,
+        }
+      - { name: "hombres", label: "Hombres", widget: "number" }
+      - { name: "mujeres", label: "Mujeres", widget: "number" }
+      - { name: "total", label: "Total", widget: "number" }
+  - name: "sanciones" # Used in routes, e.g., /admin/collections/blog
+    label: "Sanciones" # Used in the UI
+    folder: "src/sanciones" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false # Disable the editor preview and use instead 'preview links'
+    fields: # The fields for each document, usually in front matter
+      - {
+          label: "Partido",
+          name: "title",
+          widget: "relation",
+          collection: "partidospublicos",
+          search_fields: ["title"],
+          value_field: "title",
+          multiple: false,
+        }
+      - {
+          name: "estado ",
+          label: "Estado",
+          widget: "select",
+          options: ["Activo", "Inactivo"],
+        }
+      - { name: "fecha", label: "Fecha", widget: "datetime" }
+      - { name: "descripcion", label: "Descripcion" }
+      - {
+          name: "tiposancion",
+          label: "Tipo de sanción",
+          widget: "select",
+          options: ["Sanción", "Multas", "Hallazgos"],
+        }
 show_preview_links: true
