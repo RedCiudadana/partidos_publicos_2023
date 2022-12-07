@@ -1,0 +1,4 @@
+{
+    "tags": "comitecivicos",
+    "permalink": "comitecivicos/{{ page.fileSlug }}/index.html"
+}

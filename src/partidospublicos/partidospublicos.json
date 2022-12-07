@@ -1,0 +1,4 @@
+{
+    "tags": "partidospublicos",
+    "permalink": "partidospublicos/{{ page.fileSlug }}/index.html"
+}
