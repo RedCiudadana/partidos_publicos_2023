@@ -144,7 +144,7 @@ collections:
             [
               {
                 label: "Partido",
-                name: "partidos",
+                name: "partidos ",
                 widget: "relation",
                 collection: "partidospublicos",
                 options_length: 50,
@@ -155,7 +155,7 @@ collections:
               },
               {
                 label: "Comité",
-                name: "comites",
+                name: "comites ",
                 widget: "relation",
                 collection: "comitescivicos",
                 options_length: 50,
