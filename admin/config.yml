@@ -105,9 +105,9 @@ collections:
       - { name: "instagram", label: "Instagram" }
       - { name: "tiktok", label: "TikTok" }
       - { name: "fundacion", label: "Fecha de Fundación", widget: "date" }
-  - name: "afiliados" # Used in routes, e.g., /admin/collections/blog
-    label: "Afiliados" # Used in the UI
-    folder: "src/afiliados" # The path to the folder where the documents are stored
+  - name: "afiliadospartidos" # Used in routes, e.g., /admin/collections/blog
+    label: "Afiliados Partidos Públicos" # Used in the UI
+    folder: "src/afiliadospartidos" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     identifier_field: title
@@ -119,6 +119,28 @@ collections:
           name: "title",
           widget: "relation",
           collection: "partidospublicos",
+          options_length: 50,
+          search_fields: ["title"],
+          value_field: "title",
+          multiple: false,
+        }
+      - { name: "hombres", label: "Hombres", widget: "number" }
+      - { name: "mujeres", label: "Mujeres", widget: "number" }
+      - { name: "total", label: "Total", widget: "number" }
+  - name: "afiliadoscomites" # Used in routes, e.g., /admin/collections/blog
+    label: "Afiliados Comites Cívicos" # Used in the UI
+    folder: "src/afiliadospartidos" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    identifier_field: title
+    editor:
+      preview: false # Disable the editor preview and use instead 'preview links'
+    fields: # The fields for each document, usually in front matter
+      - {
+          label: "Comité",
+          name: "title",
+          widget: "relation",
+          collection: "comitescivicos",
           options_length: 50,
           search_fields: ["title"],
           value_field: "title",
