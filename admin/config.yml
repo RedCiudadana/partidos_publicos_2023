@@ -151,6 +151,7 @@ collections:
                 search_fields: ["title"],
                 value_field: "title",
                 multiple: false,
+                required: false,
               },
               {
                 label: "Comité",
@@ -161,9 +162,9 @@ collections:
                 search_fields: ["title"],
                 value_field: "title",
                 multiple: false,
+                required: false,
               },
             ],
-          required: false,
         }
       - {
           name: "estado ",
