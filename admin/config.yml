@@ -145,7 +145,7 @@ collections:
           options: ["Activo", "Inactivo", "En Proceso de Cancelación"],
         }
       - { name: "fecha", label: "Fecha", widget: "date" }
-      - { name: "descripcion", label: "Descripcion" }
+      - { name: "descripcion", label: "Descripcion", widget: "string" }
       - {
           name: "tiposancion",
           label: "Tipo de sanción",
