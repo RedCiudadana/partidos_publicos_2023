@@ -150,6 +150,7 @@ collections:
                 options_length: 50,
                 search_fields: ["title"],
                 value_field: "title",
+                display_fields: [{ { title } }],
                 multiple: false,
                 required: false,
               },
@@ -161,13 +162,14 @@ collections:
                 options_length: 50,
                 search_fields: ["title"],
                 value_field: "title",
+                display_fields: [{ { title } }],
                 multiple: false,
                 required: false,
               },
             ],
         }
       - {
-          name: "estado ",
+          name: "estado",
           label: "Estado",
           widget: "select",
           options: ["Activo", "Inactivo", "En Proceso de Cancelación"],
