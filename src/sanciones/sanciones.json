@@ -1,0 +1,4 @@
+{
+    "tags": "sanciones",
+    "permalink": "sanciones/{{ page.fileSlug }}/index.html"
+}
