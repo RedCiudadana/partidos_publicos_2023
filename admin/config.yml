@@ -18,7 +18,7 @@ collections:
       - { name: "title", label: "Título" }
       - { name: "descripcion", label: "Descripción" }
       - { name: "link", label: "Enlace de video" }
-      - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "date", label: "Date", widget: "date" }
   - name: "novedades" # Used in routes, e.g., /admin/collections/blog
     label: "Novedades" # Used in the UI
     folder: "src/novedades" # The path to the folder where the documents are stored
@@ -32,7 +32,7 @@ collections:
       - { name: "description", label: "Descripción" }
       - { name: "autor", label: "Autor" }
       - { name: "correo", label: "Correo" }
-      - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "date", label: "Date", widget: "date" }
       - { name: "body", label: "Body", widget: "markdown" }
       - {
           name: "highlight",
@@ -55,7 +55,7 @@ collections:
           name: "Estado ",
           label: "Estado",
           widget: "select",
-          options: ["Activo", "Inactivo"],
+          options: ["Activo", "Inactivo", "En Proceso de Cancelación"],
         }
       - { name: "secretario", label: "Secretario(a) general" }
       - {
@@ -70,9 +70,9 @@ collections:
       - { name: "twitter", label: "Twitter" }
       - { name: "instagram", label: "Instagram" }
       - { name: "tiktok", label: "TikTok" }
-      - { name: "fundacion", label: "Fecha de Fundación", widget: "datetime" }
+      - { name: "fundacion", label: "Fecha de Fundación", widget: "date" }
   - name: "partidospublicos" # Used in routes, e.g., /admin/collections/blog
-    label: "Partidos Públicos" # Used in the UI
+    label: "Partidos Políticos" # Used in the UI
     folder: "src/partidospublicos" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -85,7 +85,7 @@ collections:
           name: "estado ",
           label: "Estado",
           widget: "select",
-          options: ["Activo", "Inactivo"],
+          options: ["Activo", "Inactivo", "En Proceso de Cancelación"],
         }
       - { name: "secretario", label: "Secretario(a) general" }
       - {
@@ -100,7 +100,7 @@ collections:
       - { name: "twitter", label: "Twitter" }
       - { name: "instagram", label: "Instagram" }
       - { name: "tiktok", label: "TikTok" }
-      - { name: "fundacion", label: "Fecha de Fundación", widget: "datetime" }
+      - { name: "fundacion", label: "Fecha de Fundación", widget: "date" }
   - name: "afiliados" # Used in routes, e.g., /admin/collections/blog
     label: "Afiliados" # Used in the UI
     folder: "src/afiliados" # The path to the folder where the documents are stored
@@ -142,9 +142,9 @@ collections:
           name: "estado ",
           label: "Estado",
           widget: "select",
-          options: ["Activo", "Inactivo"],
+          options: ["Activo", "Inactivo", "En Proceso de Cancelación"],
         }
-      - { name: "fecha", label: "Fecha", widget: "datetime" }
+      - { name: "fecha", label: "Fecha", widget: "date" }
       - { name: "descripcion", label: "Descripcion" }
       - {
           name: "tiposancion",
