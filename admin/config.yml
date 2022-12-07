@@ -166,7 +166,6 @@ collections:
               },
             ],
           max: 1,
-          min: 1,
         }
       - {
           name: "estado",
