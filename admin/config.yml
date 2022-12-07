@@ -139,12 +139,30 @@ collections:
       - {
           label: "Partido",
           name: "title",
-          widget: "relation",
-          collection: "partidospublicos",
-          options_length: 50,
-          search_fields: ["title"],
-          value_field: "title",
-          multiple: false,
+          widget: list,
+          fields:
+            [
+              {
+                label: "Partido",
+                name: "title",
+                widget: "relation",
+                collection: "partidospublicos",
+                options_length: 50,
+                search_fields: ["title"],
+                value_field: "title",
+                multiple: false,
+              },
+              {
+                label: "Comite",
+                name: "title",
+                widget: "relation",
+                collection: "comitescivicos",
+                options_length: 50,
+                search_fields: ["title"],
+                value_field: "title",
+                multiple: false,
+              },
+            ],
         }
       - {
           name: "estado ",
