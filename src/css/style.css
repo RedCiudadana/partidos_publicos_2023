@@ -16979,3 +16979,11 @@ label.checkbox { padding-left: 20px; }
 .video{
 	margin: 40px 0;
 }
+
+.novedad{
+	display: flex;
+}
+
+.novedad .texto{
+	
+}
