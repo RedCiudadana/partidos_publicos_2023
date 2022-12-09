@@ -1,6 +1,0 @@
----
-title: MOVIMIENTO PARA LA LIBERACION DE LOS PUEBLOS
-hombres: 11753
-mujeres: 12839
-total: 24592
----

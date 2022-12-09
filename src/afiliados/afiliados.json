@@ -1,5 +1,0 @@
-{
-    "tags": "afiliados",
-    "permalink": "afiliados/{{ page.fileSlug }}/index.html",
-    "layout": "layouts/afiliado.njk"
-}
