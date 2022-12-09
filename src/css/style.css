@@ -16982,8 +16982,49 @@ label.checkbox { padding-left: 20px; }
 
 .novedad{
 	display: flex;
+	padding-right: 20px;
+	margin: 20px 0;
+}
+
+.novedad img{
+	width: 30%;
 }
 
 .novedad .texto{
+	background-color: #fff;
+	width: 70%;
+	padding: 30px;
 	
+}
+
+.novedad .texto h6{
+	color: #777!important;
+}
+
+.novedad .texto h3{
+	font-weight: 600;
+}
+
+.novedad .texto p{
+	color: #009681!important;
+	font-size: 17px!important;
+}
+
+@media only screen and (max-width: 600px){
+	.novedad{
+		padding: 10px;
+		display: block;
+	}
+
+	.noveddad img{
+		width: 100%;
+	}
+
+	.novedad .texto{
+		width: 100%;
+	}
+
+	.video img{
+		width: 100%!important;
+	}
 }

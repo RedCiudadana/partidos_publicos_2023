@@ -6109,7 +6109,7 @@ button.mfp-close, button.mfp-arrow{
 	font-weight: 800;
 	border: none;
 	outline: none;
-	background-color: #13ca92;
+	background-color: #016be3;
 	color: white;
 	cursor: pointer;
 	padding: 10px 15px;
@@ -6504,9 +6504,14 @@ padding: 10px;
 }
 
 
-@media (max-width: 700px) {
+@media only screen and (max-width: 600px) {
 	.slider-iniciativas{
     background-image:url('/ELEMENTOS/07_BANNERS/JA-10.png');
     background-size:cover;
   }
+}
+
+.linea-footer{
+  width: 100%;
+  border-bottom: 1px solid #fff;
 }
