@@ -1,4 +1,5 @@
 {
     "tags": "partidospublicos",
-    "permalink": "partidospublicos/{{ page.fileSlug }}/index.html"
+    "permalink": "partidospublicos/{{ page.fileSlug }}/index.html",
+    "layout": "layouts/partido.njk"
 }

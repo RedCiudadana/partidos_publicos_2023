@@ -1,4 +1,5 @@
 {
     "tags": "sanciones",
-    "permalink": "sanciones/{{ page.fileSlug }}/index.html"
+    "permalink": "sanciones/{{ page.fileSlug }}/index.html",
+    "layout": "layouts/sancion.njk"
 }
