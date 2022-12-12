@@ -16894,6 +16894,7 @@ label.checkbox { padding-left: 20px; }
 
 .logo{
 	padding-left: 7%;
+	display: flex;
 }
 
 .redes_header{
