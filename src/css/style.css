@@ -17105,8 +17105,7 @@ label.checkbox { padding-left: 20px; }
 .tabcontent {
 	display: none;
 	padding: 6px 12px;
-	border: 1px solid #ccc;
-
+	width: 100%;
 	animation: fadeEffect 1s;
 }
 
@@ -17114,4 +17113,23 @@ label.checkbox { padding-left: 20px; }
 @keyframes fadeEffect {
 	from {opacity: 0;}
 	to {opacity: 1;}
+}
+
+.informacion_partido p{
+	margin: 0;
+}
+
+.contacto_partido p{
+	margin: 0;
+}
+
+.contacto_partido a{
+	color: #777;
+	font-size: 15px;
+    font-weight: normal;
+    line-height: 22px;
+}
+
+.contacto_partido a:hover{
+	color: #01b1a9;
 }
