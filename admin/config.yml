@@ -74,6 +74,8 @@ collections:
       - { name: "instagram", label: "Instagram" }
       - { name: "tiktok", label: "TikTok" }
       - { name: "fundacion", label: "Fecha de Fundación", widget: "date" }
+      - { name: "resumen", label: "Reseña Histórica (Resumen)" }
+      - { name: "candidaturas", label: "Candidaturas" }
   - name: "partidospublicos" # Used in routes, e.g., /admin/collections/blog
     label: "Partidos Políticos" # Used in the UI
     folder: "src/partidospublicos" # The path to the folder where the documents are stored
@@ -105,6 +107,8 @@ collections:
       - { name: "instagram", label: "Instagram" }
       - { name: "tiktok", label: "TikTok" }
       - { name: "fundacion", label: "Fecha de Fundación", widget: "date" }
+      - { name: "resumen", label: "Reseña Histórica (Resumen)" }
+      - { name: "candidaturas", label: "Candidaturas" }
   - name: "afiliadospartidos" # Used in routes, e.g., /admin/collections/blog
     label: "Afiliados Partidos Públicos" # Used in the UI
     folder: "src/afiliadospartidos" # The path to the folder where the documents are stored
