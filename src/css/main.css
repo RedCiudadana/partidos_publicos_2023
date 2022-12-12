@@ -6109,7 +6109,7 @@ button.mfp-close, button.mfp-arrow{
 	font-weight: 800;
 	border: none;
 	outline: none;
-	background-color: #016be3;
+	background-color: #42bca7;
 	color: white;
 	cursor: pointer;
 	padding: 10px 15px;
@@ -6120,8 +6120,8 @@ button.mfp-close, button.mfp-arrow{
 
 #goToTop:hover{
 	background-color: #fff;
-  color: #016be3;
-  border-color: #016be3;
+  color: #42bca7;
+  border-color: #42bca7;
 }
 
 .height-86{

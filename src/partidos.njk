@@ -26,9 +26,11 @@ permalink: "partidos/index.html"
                 {% for partido in collections.partidospublicos%}
                 <div class="col-lg-3 my-4">
                     <div class="cuadro_partido h-100 ">
-                        <div class="imagen"></div>
+                        <div class="div_imagen">
+                            <div class="imagen"></div>
+                            <h1>{{partido.data.title | capitalize}}</h1>
+                        </div>
                         <div class="texto">
-                            <h1>{{partido.data.title | uppercase}}</h1>
                             <a href="{{partido.url}}" class="masinfo">Más Información</a>
                         </div>
                     </div>
