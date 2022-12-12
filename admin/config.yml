@@ -129,7 +129,7 @@ collections:
       - { name: "total", label: "Total", widget: "number" }
   - name: "afiliadoscomites" # Used in routes, e.g., /admin/collections/blog
     label: "Afiliados Comites Cívicos" # Used in the UI
-    folder: "src/afiliadospartidos" # The path to the folder where the documents are stored
+    folder: "src/afiliadoscomites" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     identifier_field: title
