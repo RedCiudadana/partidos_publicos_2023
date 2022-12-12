@@ -17028,3 +17028,38 @@ label.checkbox { padding-left: 20px; }
 		width: 100%!important;
 	}
 }
+
+
+.cuadro_partido{
+	background-color: #fff;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cuadro_partido .imagen{
+	height: 200px;
+	width: 100%;
+	background-color: #888;
+}
+
+.cuadro_partido .texto{
+	text-align: center;
+	padding: 10px;
+}
+
+.cuadro_partido .texto h1{
+	text-transform: capitalize;
+	font-size: 20px;
+	font-weight: 600;
+	color: #777!important;
+}
+
+.cuadro_partido .texto a{
+	background-color: #42bca7;
+	color: #fff;
+	padding: 7px 10px;
+	border-radius: 2px;
+}
