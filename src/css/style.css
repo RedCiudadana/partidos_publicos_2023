@@ -17133,3 +17133,16 @@ label.checkbox { padding-left: 20px; }
 .contacto_partido a:hover{
 	color: #01b1a9;
 }
+
+.cuadro_titulo{
+	width: 100%;
+	background-color: #202c3f;
+	color: #fff;
+	padding: 30px;
+	font-weight: 600;
+}
+
+.cuadro_contenido{
+	background-color: #fff;
+	padding: 5%;
+}

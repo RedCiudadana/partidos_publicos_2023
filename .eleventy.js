@@ -1,4 +1,5 @@
 const rmj = require('render-markdown-js')
+const moment = require("moment");
 
 module.exports = function (eleventyConfig) {
 
@@ -33,5 +34,9 @@ module.exports = function (eleventyConfig) {
         //using a blankspace as a separator 
         const str2 = arr.join(" ");
         return str2 
-        });
+    });
+
+    eleventyConfig.addFilter("dateFormat", function(date, format) {
+        return moment(date).format(format);
+    });
 }
