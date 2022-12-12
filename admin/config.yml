@@ -54,6 +54,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { name: "title", label: "Nombre Completo" }
       - { name: "nombrecorto", label: "Nombre Corto" }
+      - { name: "imagen", label: "Imagen del Comité", widget: "image" }
       - {
           name: "Estado ",
           label: "Estado",
@@ -75,7 +76,7 @@ collections:
       - { name: "tiktok", label: "TikTok" }
       - { name: "fundacion", label: "Fecha de Fundación", widget: "date" }
       - { name: "resumen", label: "Reseña Histórica (Resumen)" }
-      - { name: "candidaturas", label: "Candidaturas" }
+      - { name: "candidaturas", label: "Enlace a Candidatos" }
   - name: "partidospublicos" # Used in routes, e.g., /admin/collections/blog
     label: "Partidos Políticos" # Used in the UI
     folder: "src/partidospublicos" # The path to the folder where the documents are stored
@@ -87,6 +88,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { name: "title", label: "Nombre Completo" }
       - { name: "nombrecorto", label: "Nombre Corto" }
+      - { name: "imagen", label: "Imagen del Partido", widget: "image" }
       - {
           name: "estado ",
           label: "Estado",
@@ -108,7 +110,7 @@ collections:
       - { name: "tiktok", label: "TikTok" }
       - { name: "fundacion", label: "Fecha de Fundación", widget: "date" }
       - { name: "resumen", label: "Reseña Histórica (Resumen)" }
-      - { name: "candidaturas", label: "Enalce a Candidatos" }
+      - { name: "candidaturas", label: "Enlace a Candidatos" }
   - name: "afiliadospartidos" # Used in routes, e.g., /admin/collections/blog
     label: "Afiliados Partidos Públicos" # Used in the UI
     folder: "src/afiliadospartidos" # The path to the folder where the documents are stored
