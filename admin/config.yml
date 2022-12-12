@@ -108,7 +108,7 @@ collections:
       - { name: "tiktok", label: "TikTok" }
       - { name: "fundacion", label: "Fecha de Fundación", widget: "date" }
       - { name: "resumen", label: "Reseña Histórica (Resumen)" }
-      - { name: "candidaturas", label: "Candidaturas" }
+      - { name: "candidaturas", label: "Enalce a Candidatos" }
   - name: "afiliadospartidos" # Used in routes, e.g., /admin/collections/blog
     label: "Afiliados Partidos Públicos" # Used in the UI
     folder: "src/afiliadospartidos" # The path to the folder where the documents are stored
