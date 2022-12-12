@@ -149,9 +149,9 @@ collections:
       - { name: "hombres", label: "Hombres", widget: "number" }
       - { name: "mujeres", label: "Mujeres", widget: "number" }
       - { name: "total", label: "Total", widget: "number" }
-  - name: "sanciones" # Used in routes, e.g., /admin/collections/blog
-    label: "Sanciones" # Used in the UI
-    folder: "src/sanciones" # The path to the folder where the documents are stored
+  - name: "sancionespartidos" # Used in routes, e.g., /admin/collections/blog
+    label: "Sanciones Partidos Políticos" # Used in the UI
+    folder: "src/sancionespartidos" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
     identifier_field: title
@@ -159,35 +159,14 @@ collections:
       preview: false # Disable the editor preview and use instead 'preview links'
     fields: # The fields for each document, usually in front matter
       - {
-          label: "Partido / Comité",
+          label: "Partido",
           name: "title",
-          widget: list,
-          fields:
-            [
-              {
-                label: "Partido",
-                name: "p",
-                widget: "relation",
-                collection: "partidospublicos",
-                options_length: 50,
-                search_fields: ["title"],
-                value_field: "title",
-                multiple: false,
-                required: false,
-              },
-              {
-                label: "Comité",
-                name: "c",
-                widget: "relation",
-                collection: "comitescivicos",
-                options_length: 50,
-                search_fields: ["title"],
-                value_field: "title",
-                multiple: false,
-                required: false,
-              },
-            ],
-          max: 1,
+          widget: "relation",
+          collection: "partidospublicos",
+          options_length: 50,
+          search_fields: ["title"],
+          value_field: "title",
+          multiple: false,
         }
       - {
           name: "estado",
@@ -203,4 +182,38 @@ collections:
           widget: "select",
           options: ["Sanción", "Multas", "Hallazgos"],
         }
+  - name: "sancionescomites" # Used in routes, e.g., /admin/collections/blog
+    label: "Sanciones Comites Cívicos" # Used in the UI
+    folder: "src/sancionescomites" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    identifier_field: title
+    editor:
+      preview: false # Disable the editor preview and use instead 'preview links'
+    fields: # The fields for each document, usually in front matter
+      - {
+          label: "Comite",
+          name: "title",
+          widget: "relation",
+          collection: "comitescivicos",
+          options_length: 50,
+          search_fields: ["title"],
+          value_field: "title",
+          multiple: false,
+        }
+      - {
+          name: "estado",
+          label: "Estado",
+          widget: "select",
+          options: ["Activo", "Inactivo", "En Proceso de Cancelación"],
+        }
+      - { name: "fecha", label: "Fecha", widget: "date" }
+      - { name: "descripcion", label: "Descripcion", widget: "string" }
+      - {
+          name: "tiposancion",
+          label: "Tipo de sanción",
+          widget: "select",
+          options: ["Sanción", "Multas", "Hallazgos"],
+        }
+
 show_preview_links: true
