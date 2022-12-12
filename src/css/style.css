@@ -17076,6 +17076,12 @@ label.checkbox { padding-left: 20px; }
 	display: flex;
 	justify-content: space-between;
 }
+
+@media only screen and (max-width: 668px) {
+    .tab {
+        display: block;
+    }
+}
   
 /* Style the buttons inside the tab */
 .tab button {
