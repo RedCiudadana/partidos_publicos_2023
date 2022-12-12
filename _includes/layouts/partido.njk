@@ -2,8 +2,72 @@
 
 {% block head %}
 <title>{{title}} | Partidos Públicos</title>
+<link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
 {% endblock %}
 
 {% block content %}
 
+    <div class="section m-0" style="background-color:#f0f2fd">
+		<div class="container">
+            <div class="row my-4 ">
+                
+                <div class="tab col-lg-12 p-0">
+                    <button class="tablinks" onclick="openTab(event, 'partido')" id="defaultOpen"><i class="lni lni-grid-alt" style="margin-right:10px"></i>Partido Político</button>
+                    <button class="tablinks" onclick="openTab(event, 'presencia')"><i class="fa-sharp fa-solid fa-location-dot" style="margin-right:10px"></i>Presencia Nacional</button>
+                    <button class="tablinks" onclick="openTab(event, 'participar')"><i class="fa-solid fa-flag" style="margin-right:10px"></i>¿Cómo Participar?</button>
+                    <button class="tablinks" onclick="openTab(event, 'finanzas')"><i class="fa-sharp fa-solid fa-coins" style="margin-right:10px"></i>Finanzas</button>
+                    <button class="tablinks" onclick="openTab(event, 'sanciones')"><i class="fa-solid fa-x" style="margin-right:10px"></i>Sanciones</button>
+                </div>
+
+            </div>
+
+            <div class="row my-4">
+                <div id="partido" class="tabcontent">
+                    <h3>Partido Político</h3>
+                    <p>London is the capital city of England.</p>
+                </div>
+
+                <div id="presencia" class="tabcontent">
+                    <h3>Presencia Nacional</h3>
+                    <p>Paris is the capital of France.</p> 
+                </div>
+
+                <div id="participar" class="tabcontent">
+                    <h3>¿Cómo Participar?</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+
+                <div id="finanzas" class="tabcontent">
+                    <h3>Finanzas</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+
+                <div id="sanciones" class="tabcontent">
+                    <h3>Sanciones</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block body_javascripts %}
+
+    <script>
+        function openTab(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+        }
+        document.getElementById("defaultOpen").click();
+    </script>
 {% endblock %}
