@@ -17179,3 +17179,10 @@ label.checkbox { padding-left: 20px; }
 		height: 280px;
 	}
 }
+
+@media only screen and (max-width: 400px) {
+	.bg-home{
+		height: 450px;
+		background-image:url('/src/assets/banners/slider_home_movil.png'); 
+	}
+}
