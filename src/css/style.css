@@ -17161,3 +17161,21 @@ label.checkbox { padding-left: 20px; }
 .breadcumb a:hover{
 	color: #01b1a9!important;
 }
+
+.bg-home{
+	background-image:url('/src/assets/banners/slider_home.png'); 
+	background-size: cover;
+	height: 600px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.bg-home{
+		height: 350px;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	.bg-home{
+		height: 280px;
+	}
+}
