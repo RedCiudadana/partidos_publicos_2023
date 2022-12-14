@@ -1,6 +1,7 @@
 ---
 title: PARTIDO DE INTEGRACION NACIONAL
 nombrecorto: PIN
+imagen: /src/assets/posts/27_pin.png
 estado: Activo
 secretario: Henry Rodolfo Castillo Montiel
 secretariofunciones: Henry Rodolfo Castillo Montiel
@@ -11,6 +12,8 @@ correo: info@pinguate.org
 facebook: https://www.facebook.com/PINguate/
 twitter: https://twitter.com/PIN_guate
 instagram: https://www.instagram.com/pinguate/
-tiktok: https://www.tiktok.com/@pinguate?_t=8XPmCT9at1S&_r=1
+tiktok: https://www.tiktok.com/@pinguate
 fundacion: 2022-08-24T17:12:11.033Z
+resumen: XX
+candidaturas: XX
 ---
