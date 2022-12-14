@@ -1,7 +1,7 @@
 ---
 title: COMPROMISO RENOVACION Y ORDEN
 nombrecorto: CREO
-"estado ": Activo
+estado: Activo
 secretario: Jose Rodolfo Neutze Aguirre
 secretariofunciones: Jose Rodolfo Neutze Aguirre
 direccion: 7 Calle ""A"" 1-56 zona 10  Para recibir Notificaciones 2a. Avenida

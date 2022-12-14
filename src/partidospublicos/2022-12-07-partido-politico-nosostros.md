@@ -1,7 +1,7 @@
 ---
 title: PARTIDO POLITICO NOSOSTROS
 nombrecorto: PPN
-"estado ": Activo
+estado: Activo
 secretario: Rudy Guzmán
 secretariofunciones: Rudy Guzmán
 direccion: 15 avenida 4-31 zona 13

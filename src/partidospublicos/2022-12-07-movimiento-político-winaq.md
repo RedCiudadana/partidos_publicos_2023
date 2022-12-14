@@ -1,7 +1,7 @@
 ---
 title: MOVIMIENTO POLÍTICO WINAQ
 nombrecorto: WINAQ
-"estado ": Activo
+estado: Activo
 secretario: Sonia Marina Gutierrez Raguay
 secretariofunciones: Sonia Marina Gutierrez Raguay
 direccion: 6 calle 0-10 zona 1

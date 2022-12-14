@@ -1,7 +1,7 @@
 ---
 title: MOVIMIENTO SEMILLA
 nombrecorto: SEMILLA
-"estado ": Activo
+estado: Activo
 secretario: Cesar Bernardo Arevalo De Leon
 secretariofunciones: Cesar Bernardo Arevalo De Leon
 direccion: 13 Calle 2-14 zona 1

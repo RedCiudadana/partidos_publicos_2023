@@ -1,7 +1,7 @@
 ---
 title: PARTIDO HUMANISTA DE GUATEMALA
 nombrecorto: PHG
-"estado ": Activo
+estado: Activo
 secretario: Rudio Lecsan Merida Herrera
 secretariofunciones: Rudio Lecsan Merida Herrera
 direccion: 3ª. Avenida “A” 3-28 zona 1

@@ -1,7 +1,7 @@
 ---
 title: FRENTE DE CONVERGENCIA NACIONAL
 nombrecorto: FCN- NACION
-"estado ": Activo
+estado: Activo
 secretario: Javier Alfonso Hernandez Franco
 secretariofunciones: Javier Alfonso Hernandez Franco
 direccion: "SEDE TEMPORAL  7ª Avenida 8-56 zona 1. Edificio El Centro 4to. Nivel

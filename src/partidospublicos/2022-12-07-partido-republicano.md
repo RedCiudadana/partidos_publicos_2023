@@ -1,7 +1,7 @@
 ---
 title: PARTIDO REPUBLICANO
 nombrecorto: PR
-"estado ": Activo
+estado: Activo
 secretario: Carlos Fernando Velasquez Monge
 secretariofunciones: Carlos Fernando Velasquez Monge
 direccion: 4ta, Calle 7-53 zona 9, Edificio Torre Azul Of. 705.

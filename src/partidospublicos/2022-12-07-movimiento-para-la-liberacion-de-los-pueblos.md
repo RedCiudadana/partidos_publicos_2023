@@ -1,7 +1,7 @@
 ---
 title: MOVIMIENTO PARA LA LIBERACION DE LOS PUEBLOS
 nombrecorto: MLP
-"estado ": Activo
+estado: Activo
 secretario: Cirilo Perez Ordoñez
 secretariofunciones: Cirilo Perez Ordoñez
 direccion: 13 Calle 12-48 Literal “A”  Zona 1

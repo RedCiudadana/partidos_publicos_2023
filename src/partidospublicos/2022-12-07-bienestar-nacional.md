@@ -1,7 +1,7 @@
 ---
 title: BIENESTAR NACIONAL
 nombrecorto: BIEN
-"estado ": Activo
+estado: Activo
 secretario: Ruben Garcia Lopez
 secretariofunciones: Ruben Garcia Lopez
 direccion: 8a. Avenida 6-30 Zona 2

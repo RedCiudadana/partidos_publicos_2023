@@ -1,7 +1,7 @@
 ---
 title: PARTIDO AZUL
 nombrecorto: AZUL
-"estado ": Activo
+estado: Activo
 secretario: Jorge Mario Villagrán Alvarez
 secretariofunciones: Jorge Mario Villagrán Alvarez
 direccion: 8ª. Calle 2-29 A zona 1

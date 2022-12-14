@@ -1,7 +1,7 @@
 ---
 title: PARTIDO DE INTEGRACION NACIONAL
 nombrecorto: PIN
-"estado ": Activo
+estado: Activo
 secretario: Henry Rodolfo Castillo Montiel
 secretariofunciones: Henry Rodolfo Castillo Montiel
 direccion: 25ª Avenida 1-89 Zona 15.  Vista Hermosa II. Edificio Insigne Nivel 16, Of.1602

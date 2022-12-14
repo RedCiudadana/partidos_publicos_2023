@@ -1,7 +1,7 @@
 ---
 title: PARTIDO POLÍTICO VISIÓN CON VALORES
 nombrecorto: VIVA
-"estado ": Activo
+estado: Activo
 secretario: Armando Damian Castillo Alvarado
 secretariofunciones: Armando Damian Castillo Alvarado
 direccion: 7ª Avenida 8-56 zona 1 Edificio el Centro Local 109

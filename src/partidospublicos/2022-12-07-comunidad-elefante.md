@@ -1,7 +1,7 @@
 ---
 title: COMUNIDAD ELEFANTE
 nombrecorto: ELEFANTE
-"estado ": Activo
+estado: Activo
 secretario: Hugo Enrique Peña Medina
 secretariofunciones: Hugo Enrique Peña Medina
 direccion: 7ª Calle 6-63 zona 2

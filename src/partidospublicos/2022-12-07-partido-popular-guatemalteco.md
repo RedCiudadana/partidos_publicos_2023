@@ -1,7 +1,7 @@
 ---
 title: PARTIDO POPULAR GUATEMALTECO
 nombrecorto: PPG
-"estado ": Activo
+estado: Activo
 secretario: Jorge Leonel Arevalo Canales
 secretariofunciones: Jorge Leonel Arevalo Canales
 direccion: 12 Calle 1-25 zona 10, Edificio Géminis Diez Torre Sur Of. 513
