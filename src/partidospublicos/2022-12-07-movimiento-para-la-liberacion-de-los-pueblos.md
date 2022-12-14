@@ -1,6 +1,7 @@
 ---
 title: MOVIMIENTO PARA LA LIBERACION DE LOS PUEBLOS
 nombrecorto: MLP
+imagen: /src/assets/posts/16_mlp.png
 estado: Activo
 secretario: Cirilo Perez Ordoñez
 secretariofunciones: Cirilo Perez Ordoñez
@@ -13,4 +14,6 @@ twitter: https://twitter.com/mlp_gt
 instagram: https://www.instagram.com/mlp.gt/
 tiktok: Pendiente
 fundacion: 2016-12-08T16:52:43.547Z
+resumen: XXX
+candidaturas: XXX
 ---

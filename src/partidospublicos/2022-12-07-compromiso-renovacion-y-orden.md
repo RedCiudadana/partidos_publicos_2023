@@ -1,6 +1,7 @@
 ---
 title: COMPROMISO RENOVACION Y ORDEN
 nombrecorto: CREO
+imagen: /src/assets/posts/11_creo.png
 estado: Activo
 secretario: Jose Rodolfo Neutze Aguirre
 secretariofunciones: Jose Rodolfo Neutze Aguirre
@@ -14,4 +15,6 @@ twitter: https://twitter.com/creoguate
 instagram: Pendiente
 tiktok: Pendiente
 fundacion: 2011-05-01T16:40:36.539Z
+resumen: XXX
+candidaturas: XXX
 ---

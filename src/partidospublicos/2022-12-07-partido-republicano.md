@@ -1,6 +1,7 @@
 ---
 title: PARTIDO REPUBLICANO
 nombrecorto: PR
+imagen: /src/assets/posts/25_partido-republicano.png
 estado: Activo
 secretario: Carlos Fernando Velasquez Monge
 secretariofunciones: Carlos Fernando Velasquez Monge
@@ -11,6 +12,8 @@ correo: contacto@pr.gt, partidorepgt@gmail.com y republicanoguatemala@gmail.com
 facebook: https://www.facebook.com/republicanosdeguate/
 twitter: https://twitter.com/Republicano502
 instagram: https://www.instagram.com/pr_gt_/
-tiktok: https://www.tiktok.com/@republicanodecorazon?_t=8XPkp1Xu5GX&_r=1
+tiktok: https://www.tiktok.com/@republicanodecorazon
 fundacion: 2022-07-08T17:09:48.466Z
+resumen: XXX
+candidaturas: XXX
 ---

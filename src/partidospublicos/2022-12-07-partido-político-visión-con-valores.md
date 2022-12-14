@@ -1,6 +1,7 @@
 ---
 title: PARTIDO POLÍTICO VISIÓN CON VALORES
 nombrecorto: VIVA
+imagen: /src/assets/posts/09_viva.png
 estado: Activo
 secretario: Armando Damian Castillo Alvarado
 secretariofunciones: Armando Damian Castillo Alvarado
@@ -11,6 +12,8 @@ correo: vivaorganizacion@gmail.com
 facebook: https://www.facebook.com/visionconvalores.VIVA/
 twitter: https://twitter.com/Partido_VIVA
 instagram: https://www.instagram.com/visionconvalores.viva/
-tiktok: " https://www.tiktok.com/@partidovivaoficial?_t=8XO21Y4rmZp&_r=1"
+tiktok: " https://www.tiktok.com/@partidovivaoficial"
 fundacion: 2007-01-20T16:37:20.343Z
+resumen: XXX
+candidaturas: XXX
 ---

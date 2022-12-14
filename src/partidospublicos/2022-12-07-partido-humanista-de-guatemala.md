@@ -1,6 +1,7 @@
 ---
 title: PARTIDO HUMANISTA DE GUATEMALA
 nombrecorto: PHG
+imagen: /src/assets/posts/15_humanista.png
 estado: Activo
 secretario: Rudio Lecsan Merida Herrera
 secretariofunciones: Rudio Lecsan Merida Herrera
@@ -13,4 +14,6 @@ twitter: https://twitter.com/Humanista_guate
 instagram: https://www.instagram.com/partidohumanistadeguatemala/
 tiktok: https://www.tiktok.com/@partidohumanista.phg
 fundacion: 2017-06-17T16:50:44.203Z
+resumen: XXX
+candidaturas: XXX
 ---

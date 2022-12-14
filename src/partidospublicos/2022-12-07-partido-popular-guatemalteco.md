@@ -1,6 +1,7 @@
 ---
 title: PARTIDO POPULAR GUATEMALTECO
 nombrecorto: PPG
+imagen: /src/assets/posts/24_partido-popular-guatemalteco.png
 estado: Activo
 secretario: Jorge Leonel Arevalo Canales
 secretariofunciones: Jorge Leonel Arevalo Canales
@@ -13,4 +14,6 @@ twitter: Pendiente
 instagram: https://www.instagram.com/partidopopulargtmixco/
 tiktok: Pendiente
 fundacion: 2022-07-27T17:08:19.137Z
+resumen: XXXX
+candidaturas: XXX
 ---
