@@ -1,6 +1,7 @@
 ---
 title: MOVIMIENTO POLÍTICO WINAQ
 nombrecorto: WINAQ
+imagen: /src/assets/posts/13_winaq.png
 estado: Activo
 secretario: Sonia Marina Gutierrez Raguay
 secretariofunciones: Sonia Marina Gutierrez Raguay
@@ -9,8 +10,10 @@ paginaweb: http://www.winaqgt.org/
 telefono: "22932286"
 correo: winaq.org.gt@gmail.com
 facebook: https://www.facebook.com/MovimientoWINAQ/
-twitter: https://twitter.com/MovimientoWinaq?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+twitter: https://twitter.com/MovimientoWinaq
 instagram: https://www.instagram.com/movimientopoliticowinaq_gt/
-tiktok: https://www.tiktok.com/@movimientowinaq?_t=8XO6xT7Var8&_r=1
+tiktok: https://www.tiktok.com/@movimientowinaq
 fundacion: 2011-04-14T16:47:06.374Z
+resumen: XXX
+candidaturas: XXX
 ---
