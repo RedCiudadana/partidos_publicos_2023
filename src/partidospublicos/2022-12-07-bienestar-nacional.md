@@ -2,7 +2,7 @@
 title: BIENESTAR NACIONAL
 nombrecorto: BIEN
 imagen: /images/posts/08_bienestar-social.png
-"estado ": Activo
+estado: Activo
 secretario: Ruben Garcia Lopez
 secretariofunciones: Ruben Garcia Lopez
 direccion: 8a. Avenida 6-30 Zona 2
@@ -14,6 +14,7 @@ twitter: https://twitter.com/bienguate
 instagram: https://www.instagram.com/bien_gt/
 tiktok: Pendiente
 fundacion: 2002-01-01T16:36:00.368Z
-resumen: XXXXXXX
-candidaturas: XXXXXXX
+resumen: XXXXXX
+candidaturas: XXXXXX
+"estado ": Activo
 ---
