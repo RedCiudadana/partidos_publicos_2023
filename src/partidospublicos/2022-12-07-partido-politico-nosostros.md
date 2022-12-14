@@ -1,6 +1,7 @@
 ---
 title: PARTIDO POLITICO NOSOSTROS
 nombrecorto: PPN
+imagen: /src/assets/posts/21_nosotros.png
 estado: Activo
 secretario: Rudy Guzmán
 secretariofunciones: Rudy Guzmán
@@ -13,4 +14,6 @@ twitter: https://twitter.com/NosotrosGuate
 instagram: https://www.instagram.com/nosotrosguatemala/
 tiktok: https://www.tiktok.com/@nosotrosguate
 fundacion: 2022-06-05T17:02:17.487Z
+resumen: XXX
+candidaturas: XX
 ---
