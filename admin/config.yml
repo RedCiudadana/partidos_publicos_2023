@@ -56,7 +56,7 @@ collections:
       - { name: "nombrecorto", label: "Nombre Corto" }
       - { name: "imagen", label: "Imagen del Comité", widget: "image" }
       - {
-          name: "Estado ",
+          name: "estado",
           label: "Estado",
           widget: "select",
           options: ["Activo", "Inactivo", "En Proceso de Cancelación"],
@@ -90,7 +90,7 @@ collections:
       - { name: "nombrecorto", label: "Nombre Corto" }
       - { name: "imagen", label: "Imagen del Partido", widget: "image" }
       - {
-          name: "estado ",
+          name: "estado",
           label: "Estado",
           widget: "select",
           options: ["Activo", "Inactivo", "En Proceso de Cancelación"],
