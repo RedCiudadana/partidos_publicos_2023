@@ -34,7 +34,7 @@
                         <div class="col-lg-3 logo_partido">
                             <img src="{{imagen}}">
                         </div>
-                        <div class="col-lg-6 informacion_partido d-flex justify-content-center align-items" style="flex-direction:column">
+                        <div class="col-lg-6 informacion_partido d-flex justify-content-center align-items my-4" style="flex-direction:column">
                             <h2 style="font-weight:600">{{nombrecorto}}</h2>
                             <div class="d-flex">
                                 <p style="font-weight:600">Nombre: &nbsp</p>
@@ -122,17 +122,27 @@
                         <div class="col-lg-12 cuadro_contenido">
                             <!--Afiliados-->
                             <div class="row">
-                                <div class="col-lg-4">
-
+                                {% for afiliados in collections.afiliados%}
+                                {% if afiliados.data.title == title%}
+                                <div class="col-lg-4 d-flex justify-content-center my-4" style="align-items:center">
+                                    <div>
+                                        <h3 style="font-weight:600">Total de Afiliados</h3>
+                                        <h3 class="conteo_total">{{afiliados.data.total}}</h3>
+                                    </div>
                                 </div>
                                 <div class="col-lg-4">
+                                    <div id="hombres" class="d-none">{{afiliados.data.hombres}}</div>
+                                    <div id="mujeres" class="d-none">{{afiliados.data.mujeres}}</div>
                                     <div class="chartbox">
                                         <canvas width="100%" height="100%" id="dona"></canvas>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 d-flex justify-content-center" style="align-items:center">
-                                        hola
+                                <div class="col-lg-4 d-flex justify-content-center my-4" style="align-items:center">
+                                    <div class="label_hombres"></div>Hombres
+                                    <div class="label_mujeres"></div>Mujeres
                                 </div>
+                                {% endif %}
+                                {% endfor %}
                             </div>
                         </div>
                     </div>
@@ -234,8 +244,8 @@
 
     <script>
         const ctx = document.getElementById('dona');
-        //const mujeres = document.getElementById('mujeres').value;
-        //const hombres = document.getElementById('hombres').value;
+        const mujeres = document.getElementById('mujeres').innerHTML;
+        const hombres = document.getElementById('hombres').innerHTML;
         const data = {
             labels: [
                 'Mujeres',
@@ -243,7 +253,7 @@
             ],
             datasets: [{
                 label: 'Cantidad',
-                data: [300, 50],
+                data: [mujeres, hombres],
                 backgroundColor: [
                 'rgb(66, 189, 166)',
                 'rgb(251, 177, 40)',
@@ -258,8 +268,11 @@
                 responsive: true,
                 maintainAspectRatio: false,
                 scales: {
-                    y: {
-                        display: false
+                    display: false
+                },
+                plugins: {
+                    legend: {
+                        display: false,
                     }
                 }
             }

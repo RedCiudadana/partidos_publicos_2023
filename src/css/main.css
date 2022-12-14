@@ -6547,3 +6547,25 @@ padding: 10px;
   height: 350px;
 }
 
+.label_hombres{
+  width: 40px;
+  height: 20px;
+  background-color: rgb(251, 177, 40);
+  margin: 0 10px;
+}
+
+.label_mujeres{
+  width: 40px;
+  height: 20px;
+  background-color: rgb(66, 189, 166);
+  margin: 0 10px;
+}
+
+.conteo_total{
+	background-color: #202c3f;
+	color: #fff!important;
+	padding: 20px 30px;
+  margin: 20px 0;
+	font-weight: 600;
+  text-align: center;
+}
