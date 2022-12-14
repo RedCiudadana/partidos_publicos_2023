@@ -6569,3 +6569,21 @@ padding: 10px;
 	font-weight: 600;
   text-align: center;
 }
+
+.tabla_sanciones{
+  margin: 40px 0;
+}
+
+.tabla_sanciones tr{
+  border-top:1px solid #999;
+  border-bottom:1px solid #999;
+}
+
+.tabla_sanciones th,.tabla_sanciones td{
+  padding: 20px 10px;
+}
+
+.verde{
+  color: #01b1a9!important;
+  text-transform: uppercase;
+}

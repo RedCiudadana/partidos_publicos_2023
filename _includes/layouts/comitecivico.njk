@@ -1,9 +1,303 @@
 {% extends "src/base.njk" %}
 
 {% block head %}
-<title>{{title}}</title>
+<title>{{title | capitalize}} | Partidos Públicos</title>
+<link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
 {% endblock %}
 
 {% block content %}
 
+    <div class="section m-0" style="background-color:#f0f2fd">
+		<div class="container">
+
+            <div class="row my-4 m-o-responsive" style="background-color:#fff">
+                <div class="col-lg-12 d-flex breadcumb" style="padding:20px">
+                    <a href="/index.html">Inicio</a> &nbsp/&nbsp <a href="/comites/index.html">Comites Cívicos</a> &nbsp/&nbsp <a href="#" style="pointer-events:none">{{title|capitalize}}</a> 
+                </div>
+            </div>
+
+            <div class="row my-4 m-o-responsive">
+                <!--Tabs-->
+                <div class="tab col-lg-12 p-1">
+                    <button class="tablinks" onclick="openTab(event, 'partido')" id="defaultOpen"><i class="lni lni-grid-alt" style="margin-right:10px"></i>Partido Político</button>
+                    <button class="tablinks" onclick="openTab(event, 'presencia')"><i class="fa-sharp fa-solid fa-location-dot" style="margin-right:10px"></i>Presencia Nacional</button>
+                    <button class="tablinks" onclick="openTab(event, 'participar')"><i class="fa-solid fa-flag" style="margin-right:10px"></i>¿Cómo Participar?</button>
+                    <button class="tablinks" onclick="openTab(event, 'finanzas')"><i class="fa-sharp fa-solid fa-coins" style="margin-right:10px"></i>Finanzas</button>
+                    <button class="tablinks" onclick="openTab(event, 'sanciones')"><i class="fa-solid fa-x" style="margin-right:10px"></i>Sanciones</button>
+                </div>
+
+            </div>
+
+            <div class="row my-4">
+                <div id="partido" class="tabcontent">
+                    <div class="row my-4 p-4 m-o-responsive" style="background-color:#fff">
+                        <div class="col-lg-3 logo_partido">
+                            <img src="{{imagen}}">
+                        </div>
+                        <div class="col-lg-6 informacion_partido d-flex justify-content-center align-items my-4" style="flex-direction:column">
+                            <h2 style="font-weight:600">{{nombrecorto}}</h2>
+                            <div class="d-flex">
+                                <p style="font-weight:600">Nombre: &nbsp</p>
+                                <p>{{title | capitalize}}</p>
+                            </div>
+                            <div class="d-flex">
+                                <p  style="font-weight:600">Estado: &nbsp</p>
+                                <p >{{estado}}</p>
+                            </div>
+                            <div class="d-flex">
+                                <p  style="font-weight:600">Secretario General: &nbsp</p>
+                                <p >{{secretario}}</p>
+                            </div>
+                            <div class="d-flex">
+                                <p  style="font-weight:600">Fundación: &nbsp</p>
+                                <p >{{ fundacion | dateFormat('DD/MM/YYYY')}}</p>
+                            </div>
+                            <div class="d-flex">
+                                <p  style="font-weight:600">Dirección: &nbsp</p>
+                                <p >{{direccion}}</p>
+                            </div>
+                            <div class="d-flex">
+                                <p  style="font-weight:600">Teléfono: &nbsp</p>
+                                <p >{{telefono}}</p>
+                            </div>
+                            <div class="d-flex">
+                                <p  style="font-weight:600">Correo Electrónico: &nbsp</p>
+                                <p >{{correo}}</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 contacto_partido d-flex justify-content-center align-items" style="flex-direction:column">
+                            <h6 style="font-weight:600;text-align:left;font-size:20px">Contacto</h6>
+                            {% if paginaweb != "Pendiente" and paginaweb != "" %}
+                            <div class="d-flex">
+                                <img src="/src/assets/iconos/web.png" class="red_perfil"><a target="_blank" href="{{paginaweb}}"> Página Web</a>
+                            </div>
+                            {% endif %}
+                            {% if twitter != "Pendiente" and twitter != "" %}
+                            <div class="d-flex">
+                                <img src="/src/assets/iconos/twitter.png" class="red_perfil"><a target="_blank" href="{{twitter}}"> Twitter</a>
+                            </div>
+                            {% endif %}
+                            {% if facebook != "Pendiente" and facebook != "" %}
+                            <div class="d-flex">
+                                <img src="/src/assets/iconos/fb.png" class="red_perfil"><a target="_blank" href="{{facebook}}"> Facebook</a>
+                            </div>
+                            {% endif %}
+                            {% if instagram != "Pendiente" and instagram != "" %}
+                            <div class="d-flex">
+                                <img src="/src/assets/iconos/instagram.png" class="red_perfil"><a target="_blank" href="{{instagram}}"> Instagram</a>
+                            </div>
+                            {% endif %}
+                            {% if tiktok != "Pendiente" and tiktok != "" %}
+                            <div class="d-flex">
+                                <img src="/src/assets/iconos/tiktok.png" class="red_perfil"><a target="_blank" href="{{tiktok}}"> Tik Tok</a>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+
+                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
+                        <div class="col-lg-12 cuadro_titulo">
+                            <img src="/src/assets/iconos/pp1.png" style="margin:0 25px">Resumen
+                        </div>
+                        <div class="col-lg-12 cuadro_contenido">
+                            <p>{{resumen}}</p>
+                        </div>
+                    </div>
+
+                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
+                        <div class="col-lg-12 cuadro_titulo">
+                            <img src="/src/assets/iconos/pp5.png" style="margin:0 25px">Candidaturas
+                        </div>
+                        <div class="col-lg-12 cuadro_contenido">
+                            <p>{{resumen}}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="presencia" class="tabcontent">
+                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
+                        <div class="col-lg-12 cuadro_titulo">
+                            <img src="/src/assets/iconos/pp3.png" style="margin:0 25px">Regiones Constituido y Número de Afiliados
+                        </div>
+                        <div class="col-lg-12 cuadro_contenido">
+                            <!--Afiliados-->
+                            <div class="row">
+                                {% for afiliados in collections.afiliadoscomites%}
+                                {% if afiliados.data.title == title%}
+                                <div class="col-lg-4 d-flex justify-content-center my-4" style="align-items:center">
+                                    <div>
+                                        <h3 style="font-weight:600">Total de Afiliados</h3>
+                                        <h3 class="conteo_total">{{afiliados.data.total}}</h3>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div id="hombres" class="d-none">{{afiliados.data.hombres}}</div>
+                                    <div id="mujeres" class="d-none">{{afiliados.data.mujeres}}</div>
+                                    <div class="chartbox">
+                                        <canvas width="100%" height="100%" id="dona"></canvas>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-flex justify-content-center my-4" style="align-items:center">
+                                    <div class="label_hombres"></div>Hombres
+                                    <div class="label_mujeres"></div>Mujeres
+                                </div>
+                                {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="participar" class="tabcontent">
+                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
+                        <div class="col-lg-12 cuadro_titulo">
+                            <img src="/src/assets/iconos/pp2.png" style="margin:0 25px">Afiliación y Desafiliación
+                        </div>
+                        <div class="col-lg-12 cuadro_contenido">
+                            <h3>Afiliación</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit viverra per, 
+                                dignissim tortor suspendisse eu conubia lacus ac egestas vestibulum 
+                                feugiat, ornare est ligula nisi dictumst fames curae montes. Quisque 
+                                himenaeos sed donec habitant class litora, est dictum phasellus 
+                                cubilia parturient vitae, volutpat tincidunt sem platea sociosqu. 
+                                Suspendisse non auctor nullam mi est penatibus phasellus porttitor 
+                                massa tellus dignissim, porta cras habitant conubia ullamcorper netus 
+                                aliquet cum ligula curabitur ridiculus, vivamus eu aenean elementum 
+                                at taciti pellentesque varius sociis urna.
+                            </p>
+                            <a href="#" class="masinfo"><i class="fa-solid fa-download" style="margin-right:10px"></i>Documentos de Afiliación</a>
+                            <div class="linea_gris"></div>
+                            <h3>Desafiliación</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit viverra per, 
+                                dignissim tortor suspendisse eu conubia lacus ac egestas vestibulum 
+                                feugiat, ornare est ligula nisi dictumst fames curae montes. Quisque 
+                                himenaeos sed donec habitant class litora, est dictum phasellus 
+                                cubilia parturient vitae, volutpat tincidunt sem platea sociosqu. 
+                                Suspendisse non auctor nullam mi est penatibus phasellus porttitor 
+                                massa tellus dignissim, porta cras habitant conubia ullamcorper netus 
+                                aliquet cum ligula curabitur ridiculus, vivamus eu aenean elementum 
+                                at taciti pellentesque varius sociis urna.
+                            </p>
+                            <a href="#" class="masinfo"><i class="fa-solid fa-download" style="margin-right:10px"></i>Más Información</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="finanzas" class="tabcontent">
+                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
+                        <div class="col-lg-12 cuadro_titulo">
+                            <img src="/src/assets/iconos/pp2.png" style="margin:0 25px">Informes Financieros
+                        </div>
+                        <div class="col-lg-12 cuadro_contenido">
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit viverra per, 
+                                dignissim tortor suspendisse eu conubia lacus ac egestas vestibulum 
+                                feugiat, ornare est ligula nisi dictumst fames curae montes. Quisque 
+                                himenaeos sed donec habitant class litora, est dictum phasellus 
+                                cubilia parturient vitae, volutpat tincidunt sem platea sociosqu. 
+                                Suspendisse non auctor nullam mi est penatibus phasellus porttitor 
+                                massa tellus dignissim, porta cras habitant conubia ullamcorper netus 
+                                aliquet cum ligula curabitur ridiculus, vivamus eu aenean elementum 
+                                at taciti pellentesque varius sociis urna.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="sanciones" class="tabcontent">
+                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
+                        <div class="col-lg-12 cuadro_titulo">
+                            <img src="/src/assets/iconos/pp4.png" style="margin:0 25px">Sanciones Aplicadas al Partido
+                        </div>
+                        <div class="col-lg-12 cuadro_contenido">
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit viverra per, 
+                                dignissim tortor suspendisse eu conubia lacus ac egestas vestibulum 
+                                feugiat, ornare est ligula nisi dictumst fames curae montes. Quisque 
+                                himenaeos sed donec habitant class litora, est dictum phasellus 
+                                cubilia parturient vitae, volutpat tincidunt sem platea sociosqu. 
+                                Suspendisse non auctor nullam mi est penatibus phasellus porttitor 
+                                massa tellus dignissim, porta cras habitant conubia ullamcorper netus 
+                                aliquet cum ligula curabitur ridiculus, vivamus eu aenean elementum 
+                                at taciti pellentesque varius sociis urna.
+                            </p>
+                            <table class="w-100 tabla_sanciones">
+                                <tr>
+                                    <th>Fecha</th>
+                                    <th>Descripción</th>
+                                    <th>Estado</th>
+                                    <th>Tipo de Sanción</th>
+                                </tr>
+                                <tr>
+                                    <td>11/01/20</td>
+                                    <td>esta sancion tiene esta descripcion</td>
+                                    <td>Activo</td>
+                                    <td class="verde">Multas</td>
+                                </tr>
+                            </table>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block body_javascripts %}
+
+    <script>
+        function openTab(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+        }
+        document.getElementById("defaultOpen").click();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        const ctx = document.getElementById('dona');
+        const mujeres = document.getElementById('mujeres').innerHTML;
+        const hombres = document.getElementById('hombres').innerHTML;
+        const data = {
+            labels: [
+                'Mujeres',
+                'Hombres'
+            ],
+            datasets: [{
+                label: 'Cantidad',
+                data: [mujeres, hombres],
+                backgroundColor: [
+                'rgb(66, 189, 166)',
+                'rgb(251, 177, 40)',
+                ],
+                hoverOffset: 4
+            }]
+        };
+        new Chart(ctx, {
+            type: 'doughnut',
+            data: data,
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    display: false
+                },
+                plugins: {
+                    legend: {
+                        display: false,
+                    }
+                }
+            }
+        });
+    </script>
 {% endblock %}
