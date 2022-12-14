@@ -1,7 +1,7 @@
 ---
 title: UNIDAD REVOLUCIONARIA NACIONAL GUATEMALTECA
 nombrecorto: URNG MAIZ
-"estado ": Activo
+estado: Activo
 secretario: Carlos Barrios
 secretariofunciones: Carlos Barrios
 direccion: 12 Avenida "B" 6-00 Zona 2

@@ -1,7 +1,7 @@
 ---
 title: PARTIDO UNIONISTA
 nombrecorto: UNIONISTA
-"estado ": Activo
+estado: Activo
 secretario: Alvaro Enrique Arzu Escobar
 secretariofunciones: Alvaro Enrique Arzu Escobar
 direccion: 1ra. Avenida 3-30 Zona 10, Segundo  Nivel Oficina 1

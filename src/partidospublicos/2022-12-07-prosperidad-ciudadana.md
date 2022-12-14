@@ -1,7 +1,7 @@
 ---
 title: PROSPERIDAD CIUDADANA
 nombrecorto: PC
-"estado ": Activo
+estado: Activo
 secretario: Dami Anita Elizabeth Kristensson Sales
 secretariofunciones: Dami Anita Elizabeth Kristensson Sales
 direccion: 14 Calle 6-12 zona 1  Oficina No. 310 Edificio Valenzuela

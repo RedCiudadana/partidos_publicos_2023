@@ -1,7 +1,7 @@
 ---
 title: UNIDAD NACIONAL DE LA ESPERANZA
 nombrecorto: UNE
-"estado ": Activo
+estado: Activo
 secretario: Sandra Julieta Torres Casanova
 secretariofunciones: Sandra Julieta Torres Casanova
 direccion: 6ª Avenida 8-65 zona 9

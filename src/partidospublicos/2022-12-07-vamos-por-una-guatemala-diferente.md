@@ -1,7 +1,7 @@
 ---
 title: VAMOS POR UNA GUATEMALA DIFERENTE
 nombrecorto: VAMOS
-"estado ": Activo
+estado: Activo
 secretario: Victor Alfredo Valenzuela Argueta
 secretariofunciones: Victor Alfredo Valenzuela Argueta
 direccion: 14 Calle 4-25 zona 9. Esquina y 10 avenida 16-64 zona 10

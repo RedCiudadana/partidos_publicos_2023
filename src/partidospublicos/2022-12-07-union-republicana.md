@@ -1,7 +1,7 @@
 ---
 title: UNION REPUBLICANA
 nombrecorto: UR
-"estado ": Activo
+estado: Activo
 secretario: Astrid Judith
 secretariofunciones: Mario Alfonso Lopez Silvestre
 direccion: 5ª Avenida 13-82 zona 9
