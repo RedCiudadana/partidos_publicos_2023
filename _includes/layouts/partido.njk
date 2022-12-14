@@ -19,11 +19,10 @@
             <div class="row my-4 m-o-responsive">
                 <!--Tabs-->
                 <div class="tab col-lg-12 p-1">
-                    <button class="tablinks" onclick="openTab(event, 'partido')" id="defaultOpen"><i class="lni lni-grid-alt" style="margin-right:10px"></i>Partido Político</button>
-                    <button class="tablinks" onclick="openTab(event, 'presencia')"><i class="fa-sharp fa-solid fa-location-dot" style="margin-right:10px"></i>Presencia Nacional</button>
-                    <button class="tablinks" onclick="openTab(event, 'participar')"><i class="fa-solid fa-flag" style="margin-right:10px"></i>¿Cómo Participar?</button>
-                    <button class="tablinks" onclick="openTab(event, 'finanzas')"><i class="fa-sharp fa-solid fa-coins" style="margin-right:10px"></i>Finanzas</button>
-                    <button class="tablinks" onclick="openTab(event, 'sanciones')"><i class="fa-solid fa-x" style="margin-right:10px"></i>Sanciones</button>
+                    <button class="tablinks h-100" onclick="openTab(event, 'partido')" id="defaultOpen"><i class="lni lni-grid-alt" style="margin-right:10px"></i>Partido Político</button>
+                    <button class="tablinks h-100" onclick="openTab(event, 'presencia')"><i class="fa-sharp fa-solid fa-location-dot" style="margin-right:10px"></i>Presencia Nacional</button>
+                    <button class="tablinks h-100" onclick="openTab(event, 'participar')"><i class="fa-solid fa-flag" style="margin-right:10px"></i>¿Cómo Participar?</button>
+                    <button class="tablinks h-100" onclick="openTab(event, 'sanciones')"><i class="fa-solid fa-x" style="margin-right:10px"></i>Sanciones</button>
                 </div>
 
             </div>
@@ -112,12 +111,47 @@
                             <p>{{resumen}}</p>
                         </div>
                     </div>
+
+                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
+                        <div class="col-lg-12 cuadro_titulo">
+                            <img src="/src/assets/iconos/pp2.png" style="margin:0 25px">Informes Financieros
+                        </div>
+                        <div class="col-lg-12 cuadro_contenido">
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit viverra per, 
+                                dignissim tortor suspendisse eu conubia lacus ac egestas vestibulum 
+                                feugiat, ornare est ligula nisi dictumst fames curae montes. Quisque 
+                                himenaeos sed donec habitant class litora, est dictum phasellus 
+                                cubilia parturient vitae, volutpat tincidunt sem platea sociosqu. 
+                                Suspendisse non auctor nullam mi est penatibus phasellus porttitor 
+                                massa tellus dignissim, porta cras habitant conubia ullamcorper netus 
+                                aliquet cum ligula curabitur ridiculus, vivamus eu aenean elementum 
+                                at taciti pellentesque varius sociis urna.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row my-4 m-o-responsive" >
+
+                        <a class="col-lg-4 my-4" href="#" target="_blank"><div class="d-flex justify-content-center" style="flex-direction:column; align-items:center">
+                            <img src="/src/assets/imgs/placeholder.png">
+                            <h5 class="titulo_partidos">CandiDatos</h5>
+                        </div></a>
+                        <a class="col-lg-4 my-4" href="#" target="_blank"><div class="d-flex justify-content-center" style="flex-direction:column; align-items:center">
+                            <img src="/src/assets/imgs/placeholder.png">
+                            <h5 class="titulo_partidos">Semáforo Electoral</h5>
+                        </div></a>
+                        <a class="col-lg-4 my-4" href="#" target="_blank"><div class=" d-flex justify-content-center" style="flex-direction:column; align-items:center">
+                            <img src="/src/assets/imgs/placeholder.png">
+                            <h5 class="titulo_partidos">Financiamiento Electoral</h5>
+                        </div></a>
+                        
+                    </div>
                 </div>
 
                 <div id="presencia" class="tabcontent">
                     <div class="row my-4 m-o-responsive" style="background-color:#fff">
                         <div class="col-lg-12 cuadro_titulo">
-                            <img src="/src/assets/iconos/pp3.png" style="margin:0 25px">Regiones Constituido y Número de Afiliados
+                            <img src="/src/assets/iconos/pp3.png" style="margin:0 25px">Número de Afiliados
                         </div>
                         <div class="col-lg-12 cuadro_contenido">
                             <!--Afiliados-->
@@ -179,26 +213,6 @@
                                 at taciti pellentesque varius sociis urna.
                             </p>
                             <a href="#" class="masinfo"><i class="fa-solid fa-download" style="margin-right:10px"></i>Más Información</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="finanzas" class="tabcontent">
-                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
-                        <div class="col-lg-12 cuadro_titulo">
-                            <img src="/src/assets/iconos/pp2.png" style="margin:0 25px">Informes Financieros
-                        </div>
-                        <div class="col-lg-12 cuadro_contenido">
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit viverra per, 
-                                dignissim tortor suspendisse eu conubia lacus ac egestas vestibulum 
-                                feugiat, ornare est ligula nisi dictumst fames curae montes. Quisque 
-                                himenaeos sed donec habitant class litora, est dictum phasellus 
-                                cubilia parturient vitae, volutpat tincidunt sem platea sociosqu. 
-                                Suspendisse non auctor nullam mi est penatibus phasellus porttitor 
-                                massa tellus dignissim, porta cras habitant conubia ullamcorper netus 
-                                aliquet cum ligula curabitur ridiculus, vivamus eu aenean elementum 
-                                at taciti pellentesque varius sociis urna.
-                            </p>
                         </div>
                     </div>
                 </div>

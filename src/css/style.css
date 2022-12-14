@@ -16951,6 +16951,7 @@ label.checkbox { padding-left: 20px; }
 	border-top-right-radius: 5px;
 }
 
+
 .texto_cuadro{
 	margin: 30px;
 	text-align: center;
@@ -17191,3 +17192,7 @@ label.checkbox { padding-left: 20px; }
 	}
 }
 
+.titulo_partidos{
+	font-weight: 600;
+	margin: 20px 0;
+}
