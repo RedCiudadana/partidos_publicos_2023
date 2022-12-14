@@ -1,6 +1,7 @@
 ---
 title: PARTIDO DE AVANZADA NACIONAL
 nombrecorto: PAN
+imagen: /src/assets/posts/01_pan.png
 estado: Activo
 secretario: Manuel Eduardo Conde Orellana
 secretariofunciones: Manuel Eduardo Conde Orellana
@@ -13,4 +14,6 @@ twitter: Pendiente
 instagram: Pendiente
 tiktok: Pendiente
 fundacion: 1989-05-15T15:23:47.478Z
+resumen: XXX
+candidaturas: XXX
 ---
