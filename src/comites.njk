@@ -23,9 +23,9 @@ permalink: "comites/index.html"
 		<div class="container">
 			<div class="row">
 
-                {% for comite in collections.comitescivicos%}
+                {% for comite in collections.comitecivicos%}
                 <div class="col-lg-3 my-4">
-                    <div class="cuadro_comite h-100 ">
+                    <div class="cuadro_partido h-100 ">
                         <div class="div_imagen">
                             <img src="{{comite.data.imagen}}">
                             <h1>{{comite.data.title | capitalize}} ({{comite.data.nombrecorto}})</h1>

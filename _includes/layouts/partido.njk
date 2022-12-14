@@ -12,7 +12,7 @@
 
             <div class="row my-4" style="background-color:#fff">
                 <div class="col-lg-12 d-flex breadcumb" style="padding:20px">
-                    <a href="/index.html">Inicio</a> &nbsp/&nbsp <a href="/partidos/index.html">Partidos Políticos</a> &nbsp/&nbsp <a href="#" style="pointer-events:none">{{title}}</a> 
+                    <a href="/index.html">Inicio</a> &nbsp/&nbsp <a href="/partidos/index.html">Partidos Políticos</a> &nbsp/&nbsp <a href="#" style="pointer-events:none">{{title|capitalize}}</a> 
                 </div>
             </div>
 
@@ -80,7 +80,7 @@
 
                     <div class="row my-4" style="background-color:#fff">
                         <div class="col-lg-12 cuadro_titulo">
-                            <img src="/src/assets/iconos/pp1.png" style="margin:0 25px">Reseña Histórica
+                            <img src="/src/assets/iconos/pp1.png" style="margin:0 25px">Resumen
                         </div>
                         <div class="col-lg-12 cuadro_contenido">
                             <p>{{resumen}}</p>
@@ -89,7 +89,7 @@
 
                     <div class="row my-4" style="background-color:#fff">
                         <div class="col-lg-12 cuadro_titulo">
-                            <img src="/src/assets/iconos/pp2.png" style="margin:0 25px">Declaración de Principios
+                            <img src="/src/assets/iconos/pp5.png" style="margin:0 25px">Candidaturas
                         </div>
                         <div class="col-lg-12 cuadro_contenido">
                             <p>{{resumen}}</p>
@@ -100,9 +100,10 @@
                 <div id="presencia" class="tabcontent">
                     <div class="row my-4" style="background-color:#fff">
                         <div class="col-lg-12 cuadro_titulo">
-                            Presencia Nacional
+                            Afiliados
                         </div>
                         <div class="col-lg-12 cuadro_contenido">
+                            <!--Afiliados-->
                             <p>{{resumen}}</p>
                         </div>
                     </div>
