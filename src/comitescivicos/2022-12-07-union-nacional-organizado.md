@@ -1,7 +1,7 @@
 ---
 title: UNION NACIONAL ORGANIZADO
 nombrecorto: UNO
-"Estado ": Activo
+estado: Activo
 secretario: Eladio Flores Marroquin
 secretariofunciones: Eladio Flores Marroquin
 direccion: 11 Avenida 13-03 zona 1, ciudad

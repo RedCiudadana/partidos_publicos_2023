@@ -1,7 +1,7 @@
 ---
 title: NUEVAS IDEAS
 nombrecorto: NI
-"Estado ": Activo
+estado: Activo
 secretario: José Luis Araneda Cintrón
 secretariofunciones: José Luis Araneda Cintrón
 direccion: 4ª. Avenida 15-70 zona 10, Edificio Paladium, Oficina 02ª

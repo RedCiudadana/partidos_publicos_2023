@@ -1,7 +1,7 @@
 ---
 title: PARTIDO CAMBIO CIUDADANO
 nombrecorto: PCC
-"Estado ": Activo
+estado: Activo
 secretario: Ricky Gilberto Rios Chavez
 secretariofunciones: Ricky Gilberto Rios Chavez
 direccion: 3ª. Avenida 14-43 zona 1 ciudad de Guatemala

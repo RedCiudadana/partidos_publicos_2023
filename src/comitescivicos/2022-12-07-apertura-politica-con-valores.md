@@ -1,7 +1,7 @@
 ---
 title: APERTURA POLITICA CON VALORES
 nombrecorto: APV
-"Estado ": Activo
+estado: Activo
 secretario: Victor Benjamin Soberanis Juarez
 secretariofunciones: Victor Benjamin Soberanis Juarez
 direccion: Casa 2F1 Residenciales Orquídeas de Residenciales San José, municipio

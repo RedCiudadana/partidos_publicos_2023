@@ -1,7 +1,7 @@
 ---
 title: SOMOS GUATEMALA
 nombrecorto: SG
-"Estado ": Activo
+estado: Activo
 secretario: Jonathan Josue Castañeda Milian
 secretariofunciones: Jonathan Josue Castañeda Milian
 direccion: 0 avenida 22-29 zona 11, sobre el Anillo Periférico, C.C. San Jorge,

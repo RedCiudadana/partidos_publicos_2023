@@ -1,7 +1,7 @@
 ---
 title: BRIGADAS UNIDAS EN SOCIALDEMOCRACIA
 nombrecorto: BUS
-"Estado ": Activo
+estado: Activo
 secretario: Sonia Esmeralda Zuleta Pacay
 secretariofunciones: Sonia Esmeralda Zuleta Pacay
 direccion: 10 avenida “A” 0-41 zona 2, apartamento 201, Barrio Moderno ciudad de Guatemala

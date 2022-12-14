@@ -1,7 +1,7 @@
 ---
 title: ALIANZA POPULAR
 nombrecorto: AP
-"Estado ": Activo
+estado: Activo
 secretario: Erick Milton Cruz Colindres
 secretariofunciones: Erick Milton Cruz Colindres
 direccion: 5ª. Avenida 21-01 La Reformita, zona 12, ciudad de Guatemala

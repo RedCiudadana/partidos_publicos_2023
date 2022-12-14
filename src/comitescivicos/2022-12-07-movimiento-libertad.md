@@ -1,7 +1,7 @@
 ---
 title: MOVIMIENTO LIBERTAD
 nombrecorto: ML
-"Estado ": Activo
+estado: Activo
 secretario: José Carlos Pomés Timeus
 secretariofunciones: José Carlos Pomés Timeus
 direccion: 12 calle 4-53 zona 1, Edificio Herrera, Oficina SE, Ciudad de Guatemala

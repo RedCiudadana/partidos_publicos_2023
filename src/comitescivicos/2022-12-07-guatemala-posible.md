@@ -1,7 +1,7 @@
 ---
 title: GUATEMALA POSIBLE
 nombrecorto: GP
-"Estado ": Activo
+estado: Activo
 secretario: Ana María De La Rosa Pérez
 secretariofunciones: Ana María De La Rosa Pérez
 direccion: 5ª calle 6-33 zona 13 ciudad de Guatemala

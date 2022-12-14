@@ -1,7 +1,7 @@
 ---
 title: MI FAMILIA
 nombrecorto: MI FAMILIA
-"Estado ": Activo
+estado: Activo
 secretario: Byron André López Maldonado
 secretariofunciones: Byron André López Maldonado
 direccion: 37 avenida 2-43 zona 11 colonia Utatlán II, Ciudad de Guatemala

@@ -1,7 +1,7 @@
 ---
 title: PARTIDO PATRIA UNIDA
 nombrecorto: PPU
-"Estado ": Activo
+estado: Activo
 secretario: Juan Carlos Anzueto Villatoro
 secretariofunciones: Juan Carlos Anzueto Villatoro
 direccion: 12 Calle 2-04 zona 9, Edificio Plaza del Sol, Primer Nivel, Oficina 24 ciudad

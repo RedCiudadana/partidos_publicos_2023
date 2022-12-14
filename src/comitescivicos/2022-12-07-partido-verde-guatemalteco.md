@@ -1,7 +1,7 @@
 ---
 title: PARTIDO VERDE GUATEMALTECO
 nombrecorto: PV
-"Estado ": Activo
+estado: Activo
 secretario: "William Alexander Mejicanos Juarez "
 secretariofunciones: "William Alexander Mejicanos Juarez "
 direccion: 6ª avenida 9-80, zona uno, Edificio Plaza Vivar, Cuarto Nivel,

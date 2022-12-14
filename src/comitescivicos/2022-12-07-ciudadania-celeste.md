@@ -1,7 +1,7 @@
 ---
 title: CIUDADANIA CELESTE
 nombrecorto: CELESTE
-"Estado ": Activo
+estado: Activo
 secretario: Maria De Los Angeles Chang Muñoz
 secretariofunciones: Maria De Los Angeles Chang Muñoz
 direccion: 6ª. Avenida 3-24 zona 1 ciudad de Guatemala

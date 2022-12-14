@@ -1,7 +1,7 @@
 ---
 title: PARTIDO FUSIONISTA
 nombrecorto: FUSIONISTA
-"Estado ": Activo
+estado: Activo
 secretario: Jorge David Chapas Muralles
 secretariofunciones: Jorge David Chapas Muralles
 direccion: 8ª Avenida “A” 27-40 zona 11 Mariscal del Municipio de Guatemala

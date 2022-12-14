@@ -1,7 +1,7 @@
 ---
 title: UNIDOS POR GUATEMALA
 nombrecorto: UPG
-"Estado ": Activo
+estado: Activo
 secretario: Benita Odilia De Leon Perez De Chiroy
 secretariofunciones: Benita Odilia De Leon Perez De Chiroy
 direccion: 11 calle 18-60 zona 1, ciudad

@@ -1,7 +1,7 @@
 ---
 title: PARTIDO DE LOS TRABAJADORES
 nombrecorto: PT
-"Estado ": Activo
+estado: Activo
 secretario: Efren Emigdio Sandoval Sanabria
 secretariofunciones: Efren Emigdio Sandoval Sanabria
 direccion: 5ª avenida 10-68 oficina 512 5to nivel Edificio Helvetia zona 1

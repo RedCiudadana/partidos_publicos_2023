@@ -1,7 +1,7 @@
 ---
 title: VOCES DE ESPERANZA NUEVA
 nombrecorto: VEN
-"Estado ": Activo
+estado: Activo
 secretario: Mario Roberto Valdeavellano Hernandez
 secretariofunciones: Mario Roberto Valdeavellano Hernandez
 direccion: 18 calle 24-79 zona 10, Edificio Empresarial Zona Pradera, Torre II,

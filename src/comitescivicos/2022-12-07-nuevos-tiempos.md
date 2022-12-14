@@ -1,7 +1,7 @@
 ---
 title: NUEVOS TIEMPOS
 nombrecorto: NT
-"Estado ": Activo
+estado: Activo
 secretario: César Andrés Montiel Sagarminaga
 secretariofunciones: César Andrés Montiel Sagarminaga
 direccion: 10 calle 9-68, Edificio Rosanca, oficina 414, zona 1, ciudad de Guatemala

@@ -1,7 +1,7 @@
 ---
 title: ALIADOS POR LA REPUBLICA Y LA NACION
 nombrecorto: ARENA
-"Estado ": Activo
+estado: Activo
 secretario: Oscar Mario Godoy
 secretariofunciones: Oscar Mario Godoy
 direccion: 7ª  Avenida Norte No. 96 de la Ciudad de Antigua Guatemala,

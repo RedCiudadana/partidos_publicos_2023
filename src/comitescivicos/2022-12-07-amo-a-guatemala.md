@@ -1,7 +1,7 @@
 ---
 title: AMO A GUATEMALA
 nombrecorto: AGUA
-"Estado ": Activo
+estado: Activo
 secretario: Ana Marcela Castro Conde
 secretariofunciones: Ana Marcela Castro Conde
 direccion: "1ª. avenida y 5ª. calle lote # 173 zona 2, colonia Linda Vista

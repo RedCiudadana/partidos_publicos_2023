@@ -1,7 +1,7 @@
 ---
 title: VOLUNTAD OPORTUNIDAD Y SOLIDARIDAD
 nombrecorto: VOS
-"Estado ": Activo
+estado: Activo
 secretario: Carlos Manuel Bezares Marroquin
 secretariofunciones: Carlos Manuel Bezares Marroquin
 direccion: 11 avenida “A” 3-74 de la z.1 Callejón Escobar Vega, de esta ciudad capital

@@ -1,7 +1,7 @@
 ---
 title: CENTRO DEMOCRATICO GUATEMALTECO
 nombrecorto: CDG
-"Estado ": Activo
+estado: Activo
 secretario: Nery Adelso De Leon Marroquin
 secretariofunciones: Nery Adelso De Leon Marroquin
 direccion: 4ª. Avenida 3-86 zona 4, Colonia Santo Domingo El Tejar, Chimaltenango

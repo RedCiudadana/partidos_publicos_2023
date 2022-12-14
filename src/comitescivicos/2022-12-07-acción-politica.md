@@ -1,7 +1,7 @@
 ---
 title: ACCIÓN POLITICA
 nombrecorto: AP
-"Estado ": Activo
+estado: Activo
 secretario: Kleber Enrique Fiallos Cornejo
 secretariofunciones: Kleber Enrique Fiallos Cornejo
 direccion: Módulo 18-17 edificio A apartamento 105 Nimajuyú 1 zona veintiuno,

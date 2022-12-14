@@ -1,7 +1,7 @@
 ---
 title: REPUBLICA LIBRE
 nombrecorto: RL
-"Estado ": Activo
+estado: Activo
 secretario: Carlos Roberto Pérez Gaitán
 secretariofunciones: Carlos Roberto Pérez Gaitán
 direccion: Avenida Reforma 8-60 zona 9, Edificio Galerías Reforma, Torre I,

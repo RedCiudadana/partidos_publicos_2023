@@ -1,7 +1,7 @@
 ---
 title: NUEVA CIUDADANIA
 nombrecorto: NC
-"Estado ": Inactivo
+estado: Inactivo
 secretario: Edgar Rolando Guzmán Fuentes
 secretariofunciones: Edgar Rolando Guzmán Fuentes
 direccion: EN PROCESO DE CANCELACIÓN

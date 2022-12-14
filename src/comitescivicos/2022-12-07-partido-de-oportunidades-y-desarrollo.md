@@ -1,7 +1,7 @@
 ---
 title: PARTIDO DE OPORTUNIDADES Y DESARROLLO
 nombrecorto: PODER
-"Estado ": Activo
+estado: Activo
 secretario: Walfre Oswaldo Lara Matute
 secretariofunciones: Walfre Oswaldo Lara Matute
 direccion: 10 avenida 12-42 zona 1 oficina 21. Guatemala

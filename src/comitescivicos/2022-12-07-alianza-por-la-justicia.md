@@ -1,7 +1,7 @@
 ---
 title: ALIANZA POR LA JUSTICIA
 nombrecorto: ALIANZA
-"Estado ": Activo
+estado: Activo
 secretario: Mario Cristobal Urrutia Vidal
 secretariofunciones: Mario Cristobal Urrutia Vidal
 direccion: 8ª avenida 12-29 z.1 oficina 301 C edificio Espinoza Castañeda Ciudad
