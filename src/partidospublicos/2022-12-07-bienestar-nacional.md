@@ -1,7 +1,7 @@
 ---
 title: BIENESTAR NACIONAL
 nombrecorto: BIEN
-imagen: /images/posts/08_bienestar-social.png
+imagen: /src/assets/posts/08_bienestar-social.png
 estado: Activo
 secretario: Ruben Garcia Lopez
 secretariofunciones: Ruben Garcia Lopez
