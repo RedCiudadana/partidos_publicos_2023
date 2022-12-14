@@ -6515,3 +6515,20 @@ padding: 10px;
   width: 100%;
   border-bottom: 1px solid #fff;
 }
+
+.masinfo{
+  background-color: #42bca7;
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 2px;
+}
+
+.masinfo:hover{
+  background-color: #22cda7;
+}
+
+.linea_gris{
+  border-bottom: 1px solid #888;
+  width: 100%;
+  margin: 30px 0;
+}

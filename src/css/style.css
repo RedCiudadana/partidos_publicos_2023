@@ -17070,6 +17070,10 @@ label.checkbox { padding-left: 20px; }
 	border-radius: 2px;
 }
 
+.cuadro_partido .texto a:hover{
+	background-color: #42cda7;
+}
+
 .tab {
 	background-color: #fff;
 	width: 100%;
@@ -17151,7 +17155,7 @@ label.checkbox { padding-left: 20px; }
 
 .cuadro_contenido{
 	background-color: #fff;
-	padding: 5%;
+	padding: 5% !important;
 }
 
 .breadcumb a{
@@ -17186,3 +17190,4 @@ label.checkbox { padding-left: 20px; }
 		background-image:url('/src/assets/banners/slider_home_movil.png'); 
 	}
 }
+
