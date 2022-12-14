@@ -72,21 +72,31 @@
                         </div>
                         <div class="col-lg-3 contacto_partido d-flex justify-content-center align-items" style="flex-direction:column">
                             <h6 style="font-weight:600;text-align:left;font-size:20px">Contacto</h6>
+                            {% if paginaweb != "Pendiente" and paginaweb != "" %}
                             <div class="d-flex">
-                                <a href="{{paginaweb}}"> Página Web</a>
+                                <a target="_blank" href="{{paginaweb}}"> Página Web</a>
                             </div>
+                            {% endif %}
+                            {% if twitter != "Pendiente" and twitter != "" %}
                             <div class="d-flex">
-                                <a href="{{twitter}}"> Twitter</a>
+                                <a target="_blank" href="{{twitter}}"> Twitter</a>
                             </div>
+                            {% endif %}
+                            {% if facebook != "Pendiente" and facebook != "" %}
                             <div class="d-flex">
-                                <a href="{{facebook}}"> Facebook</a>
+                                <a target="_blank" href="{{facebook}}"> Facebook</a>
                             </div>
+                            {% endif %}
+                            {% if instagram != "Pendiente" and instagram != "" %}
                             <div class="d-flex">
-                                <a href="{{instagram}}"> Instagram</a>
+                                <a target="_blank" href="{{instagram}}"> Instagram</a>
                             </div>
+                            {% endif %}
+                            {% if tiktok != "Pendiente" and tiktok != "" %}
                             <div class="d-flex">
-                                <a href="{{tiktok}}"> Tik Tok</a>
+                                <a target="_blank" href="{{tiktok}}"> Tik Tok</a>
                             </div>
+                            {% endif %}
                         </div>
                     </div>
 
