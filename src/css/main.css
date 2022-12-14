@@ -6520,14 +6520,15 @@ padding: 10px;
 }
 
 .masinfo{
-  background-color: #42bca7;
-  color: #fff;
+  background-color: #00A19A;
+  color: #fff!important;
   padding: 7px 10px;
   border-radius: 2px;
 }
 
 .masinfo:hover{
-  background-color: #22cda7;
+  background-color: #202D3E;
+  color: #fff!important;
 }
 
 .linea_gris{

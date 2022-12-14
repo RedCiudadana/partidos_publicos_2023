@@ -33,7 +33,7 @@
                         <div class="col-lg-3 logo_partido d-flex justify-content-center align-items my-4" style="flex-direction:column">
                             <img src="{{imagen}}">
                         </div>
-                        <div class="col-lg-6 informacion_partido d-flex justify-content-center align-items my-4" style="flex-direction:column">
+                        <div class="col-lg-6 informacion_partido d-flex justify-content-center align-items my-4 p-responsive" style="flex-direction:column">
                             <h2 style="font-weight:600">{{nombrecorto}}</h2>
                             <div class="d-flex">
                                 <p style="font-weight:600">Nombre: &nbsp</p>
@@ -64,7 +64,7 @@
                                 <p >{{correo}}</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 contacto_partido d-flex justify-content-center align-items" style="flex-direction:column">
+                        <div class="col-lg-3 contacto_partido d-flex justify-content-center align-items linea_izquierda" style="flex-direction:column">
                             <h6 style="font-weight:600;text-align:left;font-size:20px">Contacto</h6>
                             {% if paginaweb != "Pendiente" and paginaweb != "" %}
                             <div class="d-flex">
@@ -132,18 +132,18 @@
 
                     <div class="row my-4 m-o-responsive" >
 
-                        <a class="col-lg-4 my-4" href="#" target="_blank"><div class="d-flex justify-content-center" style="flex-direction:column; align-items:center">
-                            <img src="/src/assets/imgs/placeholder.png">
-                            <h5 class="titulo_partidos">CandiDatos</h5>
-                        </div></a>
-                        <a class="col-lg-4 my-4" href="#" target="_blank"><div class="d-flex justify-content-center" style="flex-direction:column; align-items:center">
-                            <img src="/src/assets/imgs/placeholder.png">
-                            <h5 class="titulo_partidos">Semáforo Electoral</h5>
-                        </div></a>
-                        <a class="col-lg-4 my-4" href="#" target="_blank"><div class=" d-flex justify-content-center" style="flex-direction:column; align-items:center">
-                            <img src="/src/assets/imgs/placeholder.png">
-                            <h5 class="titulo_partidos">Financiamiento Electoral</h5>
-                        </div></a>
+                        <div class="col-lg-4 my-4 d-flex justify-content-center" style="flex-direction:column; align-items:center">
+                            <a href="#" target="_blank"><img src="/src/assets/imgs/placeholder.png"></a>
+                            <a href="#" target="_blank"><h5 class="titulo_partidos">CandiDatos</h5></a>
+                        </div>
+                        <div class="col-lg-4 my-4 d-flex justify-content-center" style="flex-direction:column; align-items:center">
+                            <a href="#" target="_blank"><img src="/src/assets/imgs/placeholder.png"></a>
+                            <a href="#" target="_blank"><h5 class="titulo_partidos">Semáforo Electoral</h5></a>
+                        </div>
+                        <div class="col-lg-4 my-4 d-flex justify-content-center" style="flex-direction:column; align-items:center">
+                            <a href="#" target="_blank"><img src="/src/assets/imgs/placeholder.png"></a>
+                            <a href="#" target="_blank"><h5 class="titulo_partidos">Financiamiento Electoral</h5></a>
+                        </div>
                         
                     </div>
                 </div>
@@ -162,6 +162,7 @@
                                     <div>
                                         <h3 style="font-weight:600">Total de Afiliados</h3>
                                         <h3 class="conteo_total">{{afiliados.data.total}}</h3>
+                                        <h6 style="font-weight:600">Fecha de Actualización: 11/11/11{{afiliados.data.fecha}}</h6>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">

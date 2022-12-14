@@ -17179,9 +17179,31 @@ label.checkbox { padding-left: 20px; }
 	}
 }
 
+.p-responsive{
+	padding: 0 40px!important;
+}
+
+.linea_izquierda::after{
+	content: '';
+	height: 70%; 
+	width: 1px;
+
+	position: absolute;
+	top: 50%;
+	left: -30px;
+	transform: translate(-50%, -50%);
+	background-color: #888; 
+}
+
 @media only screen and (max-width: 760px) {
 	.bg-home{
 		height: 280px;
+	}
+	.p-responsive{
+		padding: 0!important;
+	}
+	.linea_izquierda::after{
+		display: none;
 	}
 }
 
@@ -17196,3 +17218,4 @@ label.checkbox { padding-left: 20px; }
 	font-weight: 600;
 	margin: 20px 0;
 }
+
