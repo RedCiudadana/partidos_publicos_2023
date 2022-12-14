@@ -10,19 +10,14 @@
     <div class="section m-0" style="background-color:#f0f2fd">
 		<div class="container">
 
-            <div class="row my-4" style="background-color:#fff">
+            <div class="row my-4 m-o-responsive" style="background-color:#fff">
                 <div class="col-lg-12 d-flex breadcumb" style="padding:20px">
                     <a href="/index.html">Inicio</a> &nbsp/&nbsp <a href="/partidos/index.html">Partidos Políticos</a> &nbsp/&nbsp <a href="#" style="pointer-events:none">{{title|capitalize}}</a> 
                 </div>
             </div>
 
-            <div class="row my-4 ">
+            <div class="row my-4 m-o-responsive">
                 <!--Tabs-->
-                <!--
-                    Presencia Nacional
-                        
-                -->
-
                 <div class="tab col-lg-12 p-1">
                     <button class="tablinks" onclick="openTab(event, 'partido')" id="defaultOpen"><i class="lni lni-grid-alt" style="margin-right:10px"></i>Partido Político</button>
                     <button class="tablinks" onclick="openTab(event, 'presencia')"><i class="fa-sharp fa-solid fa-location-dot" style="margin-right:10px"></i>Presencia Nacional</button>
@@ -35,7 +30,7 @@
 
             <div class="row my-4">
                 <div id="partido" class="tabcontent">
-                    <div class="row my-4 p-4" style="background-color:#fff">
+                    <div class="row my-4 p-4 m-o-responsive" style="background-color:#fff">
                         <div class="col-lg-3 logo_partido">
                             <img src="{{imagen}}">
                         </div>
@@ -74,33 +69,33 @@
                             <h6 style="font-weight:600;text-align:left;font-size:20px">Contacto</h6>
                             {% if paginaweb != "Pendiente" and paginaweb != "" %}
                             <div class="d-flex">
-                                <a target="_blank" href="{{paginaweb}}"> Página Web</a>
+                                <img src="/src/assets/iconos/web.png" class="red_perfil"><a target="_blank" href="{{paginaweb}}"> Página Web</a>
                             </div>
                             {% endif %}
                             {% if twitter != "Pendiente" and twitter != "" %}
                             <div class="d-flex">
-                                <a target="_blank" href="{{twitter}}"> Twitter</a>
+                                <img src="/src/assets/iconos/twitter.png" class="red_perfil"><a target="_blank" href="{{twitter}}"> Twitter</a>
                             </div>
                             {% endif %}
                             {% if facebook != "Pendiente" and facebook != "" %}
                             <div class="d-flex">
-                                <a target="_blank" href="{{facebook}}"> Facebook</a>
+                                <img src="/src/assets/iconos/fb.png" class="red_perfil"><a target="_blank" href="{{facebook}}"> Facebook</a>
                             </div>
                             {% endif %}
                             {% if instagram != "Pendiente" and instagram != "" %}
                             <div class="d-flex">
-                                <a target="_blank" href="{{instagram}}"> Instagram</a>
+                                <img src="/src/assets/iconos/instagram.png" class="red_perfil"><a target="_blank" href="{{instagram}}"> Instagram</a>
                             </div>
                             {% endif %}
                             {% if tiktok != "Pendiente" and tiktok != "" %}
                             <div class="d-flex">
-                                <a target="_blank" href="{{tiktok}}"> Tik Tok</a>
+                                <img src="/src/assets/iconos/tiktok.png" class="red_perfil"><a target="_blank" href="{{tiktok}}"> Tik Tok</a>
                             </div>
                             {% endif %}
                         </div>
                     </div>
 
-                    <div class="row my-4" style="background-color:#fff">
+                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
                         <div class="col-lg-12 cuadro_titulo">
                             <img src="/src/assets/iconos/pp1.png" style="margin:0 25px">Resumen
                         </div>
@@ -109,7 +104,7 @@
                         </div>
                     </div>
 
-                    <div class="row my-4" style="background-color:#fff">
+                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
                         <div class="col-lg-12 cuadro_titulo">
                             <img src="/src/assets/iconos/pp5.png" style="margin:0 25px">Candidaturas
                         </div>
@@ -120,21 +115,33 @@
                 </div>
 
                 <div id="presencia" class="tabcontent">
-                    <div class="row my-4" style="background-color:#fff">
+                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
                         <div class="col-lg-12 cuadro_titulo">
-                            Afiliados
+                            <img src="/src/assets/iconos/pp3.png" style="margin:0 25px">Regiones Constituido y Número de Afiliados
                         </div>
                         <div class="col-lg-12 cuadro_contenido">
                             <!--Afiliados-->
-                            <p>{{resumen}}</p>
+                            <div class="row">
+                                <div class="col-lg-4">
+
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="chartbox">
+                                        <canvas width="100%" height="100%" id="dona"></canvas>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-flex justify-content-center" style="align-items:center">
+                                        hola
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div id="participar" class="tabcontent">
-                    <div class="row my-4" style="background-color:#fff">
+                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
                         <div class="col-lg-12 cuadro_titulo">
-                            Afiliación y Desafiliación
+                            <img src="/src/assets/iconos/pp2.png" style="margin:0 25px">Afiliación y Desafiliación
                         </div>
                         <div class="col-lg-12 cuadro_contenido">
                             <h3>Afiliación</h3>
@@ -167,9 +174,9 @@
                 </div>
 
                 <div id="finanzas" class="tabcontent">
-                    <div class="row my-4" style="background-color:#fff">
+                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
                         <div class="col-lg-12 cuadro_titulo">
-                            INFORMES FINANCIEROS
+                            <img src="/src/assets/iconos/pp2.png" style="margin:0 25px">Informes Financieros
                         </div>
                         <div class="col-lg-12 cuadro_contenido">
                             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit viverra per, 
@@ -187,9 +194,9 @@
                 </div>
 
                 <div id="sanciones" class="tabcontent">
-                    <div class="row my-4" style="background-color:#fff">
+                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
                         <div class="col-lg-12 cuadro_titulo">
-                            Sanciones
+                            <img src="/src/assets/iconos/pp4.png" style="margin:0 25px">Sanciones
                         </div>
                         <div class="col-lg-12 cuadro_contenido">
                             {% for sancion in collections.sanciones%}
@@ -221,5 +228,41 @@
         evt.currentTarget.className += " active";
         }
         document.getElementById("defaultOpen").click();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        const ctx = document.getElementById('dona');
+        //const mujeres = document.getElementById('mujeres').value;
+        //const hombres = document.getElementById('hombres').value;
+        const data = {
+            labels: [
+                'Mujeres',
+                'Hombres'
+            ],
+            datasets: [{
+                label: 'Cantidad',
+                data: [300, 50],
+                backgroundColor: [
+                'rgb(66, 189, 166)',
+                'rgb(251, 177, 40)',
+                ],
+                hoverOffset: 4
+            }]
+        };
+        new Chart(ctx, {
+            type: 'doughnut',
+            data: data,
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        display: false
+                    }
+                }
+            }
+        });
     </script>
 {% endblock %}
