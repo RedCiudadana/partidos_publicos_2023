@@ -1,0 +1,13 @@
+---
+permalink: '/searchpp.json'
+---
+
+[
+  {% for partido in collections.partidospublicos %} 
+  { 
+    "title":"{{ partido.data.title | capitalize }}",
+    "nombrecorto":"{{ partido.data.nombrecorto }}",
+    "url":"{{ partido.url }}" 
+  }
+  {% if loop.last == false %},{% endif %} {% endfor %} 
+]

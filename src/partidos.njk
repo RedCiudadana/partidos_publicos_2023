@@ -6,6 +6,7 @@ permalink: "partidos/index.html"
 
 {% block head %}
 <title>Partidos Públicos | Partidos</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 {% endblock %}
 
@@ -13,9 +14,12 @@ permalink: "partidos/index.html"
 
     <div class="section m-0" style="background-color:#01a19b">
 		<div class="container">
-			<div class="row">
+			<div class="row justify-content-center">
 				<!--Texto-->
-				<div style="height:350px"></div>
+                <div class="col-lg-6 col-sm-12">
+                    <input autocomplete="off" id="search" type="search" placeholder="Busca algún Partido Público..." />
+                    <ol id="results" />
+                </div>			
 			</div>
 		</div>
 	</div>
@@ -45,18 +49,8 @@ permalink: "partidos/index.html"
 		</div>
 	</div>
 
+{% endblock %}
 
-    <!--div class="d-flex justify-content-center">
-        {% if pagination.href.previous %}
-        <div class="mx-4">
-            {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← Blogs más recientes</a>{% else %}←  Nuevos blog{% endif %}
-        </div>
-        {% endif %}
-        {% if pagination.href.next %}
-        <div class="mx-4">
-            {% if pagination.href.next %}<a href="{{ pagination.href.next }}">Blogs anteriores →</a>{% else %}Blog anteriores →{% endif %}
-        </div>
-        {% endif %}
-    </div-->
-
+{% block body_javascripts %}
+    <script src="/src/js/searchpp.js"></script>
 {% endblock %}
