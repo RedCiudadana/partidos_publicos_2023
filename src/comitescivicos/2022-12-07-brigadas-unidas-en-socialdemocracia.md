@@ -1,6 +1,7 @@
 ---
 title: BRIGADAS UNIDAS EN SOCIALDEMOCRACIA
 nombrecorto: BUS
+imagen: /src/assets/posts/27_bus.png
 estado: Activo
 secretario: Sonia Esmeralda Zuleta Pacay
 secretariofunciones: Sonia Esmeralda Zuleta Pacay
@@ -13,4 +14,6 @@ twitter: Pendiente
 instagram: Pendiente
 tiktok: Pendiente
 fundacion: 2022-12-07T18:27:42.536Z
+resumen: xxx
+candidaturas: xxx
 ---
