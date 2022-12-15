@@ -1,6 +1,7 @@
 ---
 title: MOVIMIENTO LIBERTAD
 nombrecorto: ML
+imagen: /src/assets/posts/23_movimiento-libertad.png
 estado: Activo
 secretario: José Carlos Pomés Timeus
 secretariofunciones: José Carlos Pomés Timeus
@@ -13,4 +14,6 @@ twitter: Pendiente
 instagram: Pendiente
 tiktok: Pendiente
 fundacion: 2022-12-07T18:23:38.611Z
+resumen: xxx
+candidaturas: xxx
 ---
