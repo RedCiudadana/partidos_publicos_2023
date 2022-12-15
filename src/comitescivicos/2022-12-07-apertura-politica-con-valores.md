@@ -1,6 +1,7 @@
 ---
 title: APERTURA POLITICA CON VALORES
 nombrecorto: APV
+imagen: /src/assets/posts/15_apertura-politica-con-valores.png
 estado: Activo
 secretario: Victor Benjamin Soberanis Juarez
 secretariofunciones: Victor Benjamin Soberanis Juarez
@@ -14,4 +15,6 @@ twitter: Pendiente
 instagram: https://instagram.com/apvcomiteproformacion?igshid=YTY2NzY3YTc=
 tiktok: Pendiente
 fundacion: 2022-01-01T18:11:53.876Z
+resumen: xxx
+candidaturas: xxx
 ---

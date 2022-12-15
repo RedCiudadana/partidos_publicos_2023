@@ -1,6 +1,7 @@
 ---
 title: ALIADOS POR LA REPUBLICA Y LA NACION
 nombrecorto: ARENA
+imagen: /src/assets/posts/16_aliados-por-la-republica-y-la-nacion-arena.png
 estado: Activo
 secretario: Oscar Mario Godoy
 secretariofunciones: Oscar Mario Godoy
@@ -14,4 +15,6 @@ twitter: Pendiente
 instagram: Pendiente
 tiktok: Pendiente
 fundacion: 2022-12-07T18:13:38.892Z
+resumen: xx
+candidaturas: xx
 ---
