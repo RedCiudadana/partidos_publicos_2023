@@ -2,5 +2,6 @@
 title: VAMOS POR UNA GUATEMALA DIFERENTE
 hombres: 16932
 mujeres: 26032
-total: 42964
+total: 42,964
+fecha: 2022-12-15T21:44:30.217Z
 ---
