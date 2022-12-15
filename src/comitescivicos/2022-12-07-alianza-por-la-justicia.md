@@ -1,6 +1,7 @@
 ---
 title: ALIANZA POR LA JUSTICIA
 nombrecorto: ALIANZA
+imagen: /src/assets/posts/08_alianza-por-la-justicia.png
 estado: Activo
 secretario: Mario Cristobal Urrutia Vidal
 secretariofunciones: Mario Cristobal Urrutia Vidal
@@ -14,4 +15,6 @@ twitter: https://twitter.com/aporlajusticia?s=21&t=LCBfB32Jljv3LiFPmLuKyA
 instagram: Pendiente
 tiktok: Pendiente
 fundacion: 2021-07-01T17:57:45.836Z
+resumen: xx
+candidaturas: xx
 ---
