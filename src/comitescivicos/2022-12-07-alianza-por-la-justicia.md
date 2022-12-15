@@ -10,8 +10,8 @@ direccion: 8ª avenida 12-29 z.1 oficina 301 C edificio Espinoza Castañeda Ciud
 paginaweb: Pendiente
 telefono: "55969787"
 correo: aporlajusticia@gmail.com
-facebook: https://www.facebook.com/APorLaJusticia?mibextid=LQQJ4d
-twitter: https://twitter.com/aporlajusticia?s=21&t=LCBfB32Jljv3LiFPmLuKyA
+facebook: https://www.facebook.com/APorLaJusticia
+twitter: https://twitter.com/aporlajusticia
 instagram: Pendiente
 tiktok: Pendiente
 fundacion: 2021-07-01T17:57:45.836Z
