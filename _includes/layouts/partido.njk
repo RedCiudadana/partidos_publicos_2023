@@ -31,7 +31,11 @@
                 <div id="partido" class="tabcontent">
                     <div class="row my-4 p-4 m-o-responsive" style="background-color:#fff">
                         <div class="col-lg-3 logo_partido d-flex justify-content-center align-items my-4" style="flex-direction:column">
+                            {% if imagen %}
                             <img src="{{imagen}}">
+                            {%  else %}
+                            <img src="/src/assets/imgs/placeholder.png">
+                            {% endif %} 
                         </div>
                         <div class="col-lg-6 informacion_partido d-flex justify-content-center align-items my-4 p-responsive" style="flex-direction:column">
                             <h2 style="font-weight:600">{{nombrecorto}}</h2>

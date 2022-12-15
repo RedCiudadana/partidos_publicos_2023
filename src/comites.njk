@@ -27,7 +27,11 @@ permalink: "comites/index.html"
                 <div class="col-lg-3 my-4">
                     <div class="cuadro_partido h-100 ">
                         <div class="div_imagen">
+                            {% if comite.data.imagen %}
                             <img src="{{comite.data.imagen}}">
+                            {%  else %}
+                            <img src="/src/assets/imgs/placeholder.png">
+                            {% endif %}                         
                             <h1>{{comite.data.title | capitalize}} ({{comite.data.nombrecorto}})</h1>
                         </div>
                         <div class="texto">

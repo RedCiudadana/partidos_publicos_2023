@@ -27,7 +27,11 @@ permalink: "partidos/index.html"
                 <div class="col-lg-3 my-4">
                     <div class="cuadro_partido h-100 ">
                         <div class="div_imagen">
+                            {% if partido.data.imagen %}
                             <img src="{{partido.data.imagen}}">
+                            {%  else %}
+                            <img src="/src/assets/imgs/placeholder.png">
+                            {% endif %} 
                             <h1>{{partido.data.title | capitalize}} ({{partido.data.nombrecorto}})</h1>
                         </div>
                         <div class="texto">
