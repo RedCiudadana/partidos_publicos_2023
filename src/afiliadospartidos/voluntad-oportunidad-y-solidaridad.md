@@ -2,5 +2,6 @@
 title: VOLUNTAD OPORTUNIDAD Y SOLIDARIDAD
 hombres: 8327
 mujeres: 22885
-total: 31212
+total: 31,212
+fecha: 2022-12-15T21:44:43.977Z
 ---
