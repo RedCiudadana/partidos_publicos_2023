@@ -1,6 +1,7 @@
 ---
 title: CENTRO DEMOCRATICO GUATEMALTECO
 nombrecorto: CDG
+imagen: /src/assets/posts/19_trodemocraticoguatemaltecocdg.png
 estado: Activo
 secretario: Nery Adelso De Leon Marroquin
 secretariofunciones: Nery Adelso De Leon Marroquin
@@ -13,4 +14,6 @@ twitter: Pendiente
 instagram: Pendiente
 tiktok: Pendiente
 fundacion: 2021-01-01T18:18:30.938Z
+resumen: xx
+candidaturas: xx
 ---
