@@ -132,7 +132,7 @@ collections:
         }
       - { name: "hombres", label: "Hombres", widget: "number" }
       - { name: "mujeres", label: "Mujeres", widget: "number" }
-      - { name: "total", label: "Total", widget: "number" }
+      - { name: "total", label: "Total" }
       - { name: "fecha", label: "Fecha de Actualización", widget: "date" }
   - name: "afiliadoscomites" # Used in routes, e.g., /admin/collections/blog
     label: "Afiliados Comites Cívicos" # Used in the UI
@@ -155,7 +155,7 @@ collections:
         }
       - { name: "hombres", label: "Hombres", widget: "number" }
       - { name: "mujeres", label: "Mujeres", widget: "number" }
-      - { name: "total", label: "Total", widget: "number" }
+      - { name: "total", label: "Total" }
       - { name: "fecha", label: "Fecha de Actualización", widget: "date" }
   - name: "sancionespartidos" # Used in routes, e.g., /admin/collections/blog
     label: "Sanciones Partidos Políticos" # Used in the UI
