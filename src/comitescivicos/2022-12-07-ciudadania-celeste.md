@@ -1,6 +1,7 @@
 ---
 title: CIUDADANIA CELESTE
 nombrecorto: CELESTE
+imagen: /src/assets/posts/30_ciudadania-celeste.png
 estado: Activo
 secretario: Maria De Los Angeles Chang Muñoz
 secretariofunciones: Maria De Los Angeles Chang Muñoz
@@ -13,4 +14,6 @@ twitter: Pendiente
 instagram: https://www.instagram.com/ciudadaniacelestegt/
 tiktok: https://www.tiktok.com/@ciudadaniaceleste?_t=8XY7oc2IjhO&_r=1
 fundacion: 2022-08-10T18:30:04.720Z
+resumen: xxx
+candidaturas: xxx
 ---
