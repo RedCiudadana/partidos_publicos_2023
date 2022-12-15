@@ -1,6 +1,7 @@
 ---
 title: NUEVAS IDEAS
 nombrecorto: NI
+imagen: /src/assets/posts/26_nuevas-ideas.png
 estado: Activo
 secretario: José Luis Araneda Cintrón
 secretariofunciones: José Luis Araneda Cintrón
@@ -9,8 +10,10 @@ paginaweb: http://www.nuevasideas.com.gt/
 telefono: "42193661"
 correo: jaraneda@ufm.edu
 facebook: https://www.facebook.com/people/Nuevas-Ideas-Guatemala/100068509605048/
-twitter: https://twitter.com/nuevasideas_gt?lang=es
-instagram: https://www.instagram.com/nuevasideasgt/?hl=es
-tiktok: https://www.tiktok.com/@nuevasideasgt?_t=8XY4brtqj7m&_r=1
+twitter: https://twitter.com/nuevasideas_gt
+instagram: https://www.instagram.com/nuevasideasgt
+tiktok: https://www.tiktok.com/@nuevasideasgt
 fundacion: 2021-07-02T18:26:22.120Z
+resumen: xxx
+candidaturas: xxx
 ---
