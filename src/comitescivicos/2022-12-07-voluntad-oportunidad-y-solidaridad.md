@@ -1,6 +1,7 @@
 ---
 title: VOLUNTAD OPORTUNIDAD Y SOLIDARIDAD
 nombrecorto: VOS
+imagen: /src/assets/posts/21_vos.png
 estado: Activo
 secretario: Carlos Manuel Bezares Marroquin
 secretariofunciones: Carlos Manuel Bezares Marroquin
@@ -11,6 +12,8 @@ correo: defensalegalguatemala@gmail.com
 facebook: https://www.facebook.com/VOS.Guatemala
 twitter: https://twitter.com/GuatemalaVos
 instagram: https://www.instagram.com/vosguatemala/
-tiktok: https://www.tiktok.com/@vos_san_marcos?_t=8XXyuCklelS&_r=1
+tiktok: https://www.tiktok.com/@vos_san_marcos
 fundacion: 2022-10-29T18:21:09.571Z
+resumen: xx
+candidaturas: xx
 ---
