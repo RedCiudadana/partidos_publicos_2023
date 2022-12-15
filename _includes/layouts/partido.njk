@@ -166,7 +166,11 @@
                                     <div>
                                         <h3 style="font-weight:600">Total de Afiliados</h3>
                                         <h3 class="conteo_total">{{afiliados.data.total}}</h3>
-                                        <h6 style="font-weight:600">Fecha de Actualización: 11/11/11{{afiliados.data.fecha}}</h6>
+                                        {% if afiliados.data.fecha%}
+                                        <h6 style="font-weight:600">Fecha de Actualización: {{afiliados.data.fecha}}</h6>
+                                        {% else %}
+                                        <h6 style="font-weight:600">Fecha de Actualización Indefinida</h6>
+                                        {% endif %}
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
