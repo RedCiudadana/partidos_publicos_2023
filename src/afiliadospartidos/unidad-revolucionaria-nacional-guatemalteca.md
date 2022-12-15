@@ -2,5 +2,6 @@
 title: UNIDAD REVOLUCIONARIA NACIONAL GUATEMALTECA
 hombres: 15583
 mujeres: 10385
-total: 25968
+total: 25,968
+fecha: 2022-12-15T21:44:02.371Z
 ---
