@@ -1,6 +1,7 @@
 ---
 title: GUATEMALA POSIBLE
 nombrecorto: GP
+imagen: /src/assets/posts/06_guatemala-posible.png
 estado: Activo
 secretario: Ana María De La Rosa Pérez
 secretariofunciones: Ana María De La Rosa Pérez
@@ -9,8 +10,10 @@ paginaweb: Pendiente
 telefono: "47575287"
 correo: guatemalaposiblegt@gmail.com y anadelarosa16@gmail.com
 facebook: https://www.facebook.com/GuatemalaPosible/
-twitter: https://twitter.com/GuatePosible?s=20&t=LRE_O9BYDbL4BxqXIxtCPw
-instagram: https://instagram.com/guatemalaposible?igshid=YmMyMTA2M2Y=
-tiktok: https://www.tiktok.com/@guatemalaposible?_t=8XRBSQQ4bVm&_r=1
+twitter: https://twitter.com/GuatePosible
+instagram: https://instagram.com/guatemalaposible
+tiktok: https://www.tiktok.com/@guatemalaposible
 fundacion: 2021-04-15T17:54:03.424Z
+resumen: xxx
+candidaturas: xxx
 ---
