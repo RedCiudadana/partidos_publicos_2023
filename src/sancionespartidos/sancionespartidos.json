@@ -1,0 +1,4 @@
+{
+    "tags": "sancionespartidos",
+    "permalink": "sancionespartidos/{{ page.fileSlug }}/index.html"
+}

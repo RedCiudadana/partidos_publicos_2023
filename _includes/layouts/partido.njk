@@ -167,7 +167,7 @@
                                         <h3 style="font-weight:600">Total de Afiliados</h3>
                                         <h3 class="conteo_total">{{afiliados.data.total}}</h3>
                                         {% if afiliados.data.fecha%}
-                                        <h6 style="font-weight:600">Fecha de Actualización: {{afiliados.data.fecha}}</h6>
+                                        <h6 style="font-weight:600">Fecha de Actualización: {{afiliados.data.fecha | dateFormat('DD/MM/YYYY')}}</h6>
                                         {% else %}
                                         <h6 style="font-weight:600">Fecha de Actualización Indefinida</h6>
                                         {% endif %}
@@ -242,6 +242,17 @@
                                 aliquet cum ligula curabitur ridiculus, vivamus eu aenean elementum 
                                 at taciti pellentesque varius sociis urna.
                             </p>
+                            {% set conteo = 0 %}
+                            {% if collections.sancionespartidos %}
+                            {% for sancion in collections.sancionespartidos %}
+                            {% if sancion.data.title == title %}
+                            {% set conteo = conteo + 1 %}
+                            {% endif %}
+                            {% endfor %}
+                            {% endif %}
+                            {% if conteo == 0 %}
+                            <h5 class="verde" style="font-weight:600">Este Partido no tiene sanciones</h5>
+                            {% else %}
                             <table class="w-100 tabla_sanciones">
                                 <tr>
                                     <th>Fecha</th>
@@ -249,13 +260,20 @@
                                     <th>Estado</th>
                                     <th>Tipo de Sanción</th>
                                 </tr>
-                                <tr>
-                                    <td>11/01/20</td>
-                                    <td>esta sancion tiene esta descripcion</td>
-                                    <td>Activo</td>
-                                    <td class="verde">Multas</td>
+                                {% if collections.sancionespartidos %}
+                                {% for sancion in collections.sancionespartidos %}
+                                {% if sancion.data.title == title %}
+                                <tr>                                   
+                                    <td>{{sancion.data.fecha | dateFormat('DD/MM/YYYY')}}</td>
+                                    <td>{{sancion.data.descripcion}}</td>
+                                    <td>{{sancion.data.estado}}</td>
+                                    <td class="verde">{{sancion.data.tiposancion}}</td>
                                 </tr>
+                                {% endif %}
+                                {% endfor %}
+                                {% endif %}
                             </table>
+                            {% endif %}
                             
                         </div>
                     </div>
