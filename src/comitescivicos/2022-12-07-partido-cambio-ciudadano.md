@@ -1,6 +1,7 @@
 ---
 title: PARTIDO CAMBIO CIUDADANO
 nombrecorto: PCC
+imagen: /src/assets/posts/17_partidocambiociudadanopcc.png
 estado: Activo
 secretario: Ricky Gilberto Rios Chavez
 secretariofunciones: Ricky Gilberto Rios Chavez
@@ -13,4 +14,6 @@ twitter: Pendiente
 instagram: Pendiente
 tiktok: Pendiente
 fundacion: 2022-12-07T18:15:58.655Z
+resumen: xxx
+candidaturas: xxx
 ---
