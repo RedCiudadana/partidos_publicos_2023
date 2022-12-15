@@ -1,6 +1,7 @@
 ---
 title: PARTIDO PATRIA UNIDA
 nombrecorto: PPU
+imagen: /src/assets/posts/25_partido-patria-unida.png
 estado: Activo
 secretario: Juan Carlos Anzueto Villatoro
 secretariofunciones: Juan Carlos Anzueto Villatoro
@@ -13,4 +14,6 @@ twitter: Pendiente
 instagram: Pendiente
 tiktok: Pendiente
 fundacion: 2022-12-07T18:25:25.467Z
+resumen: xx
+candidaturas: xx
 ---

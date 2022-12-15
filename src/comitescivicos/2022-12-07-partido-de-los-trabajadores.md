@@ -1,6 +1,7 @@
 ---
 title: PARTIDO DE LOS TRABAJADORES
 nombrecorto: PT
+imagen: /src/assets/posts/04_partido-de-los-trabajadores-pt.png
 estado: Activo
 secretario: Efren Emigdio Sandoval Sanabria
 secretariofunciones: Efren Emigdio Sandoval Sanabria
@@ -14,4 +15,6 @@ twitter: Pendiente
 instagram: Pendiente
 tiktok: Pendiente
 fundacion: 2021-02-10T17:51:26.150Z
+resumen: xx
+candidaturas: xx
 ---

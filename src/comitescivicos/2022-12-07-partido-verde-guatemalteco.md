@@ -1,6 +1,7 @@
 ---
 title: PARTIDO VERDE GUATEMALTECO
 nombrecorto: PV
+imagen: /src/assets/posts/10_partido-verde-guatemalteco.png
 estado: Activo
 secretario: "William Alexander Mejicanos Juarez "
 secretariofunciones: "William Alexander Mejicanos Juarez "
@@ -10,8 +11,10 @@ paginaweb: Pendiente
 telefono: "58044305"
 correo: Pendiente
 facebook: https://www.facebook.com/partidoverdegt
-twitter: https://twitter.com/partidoverdegt?s=21&t=762SrE3vC1ZwCaivWNoSJQ
-instagram: https://instagram.com/partidoverdegt?igshid=YmMyMTA2M2Y=
+twitter: https://twitter.com/partidoverdegt
+instagram: https://instagram.com/partidoverdegt
 tiktok: Pendiente
 fundacion: 2020-12-31T18:03:59.055Z
+resumen: xx
+candidaturas: xx
 ---

@@ -1,6 +1,7 @@
 ---
 title: SOMOS GUATEMALA
 nombrecorto: SG
+imagen: /src/assets/posts/07_somos-guatemala.png
 estado: Activo
 secretario: Jonathan Josue Castañeda Milian
 secretariofunciones: Jonathan Josue Castañeda Milian
@@ -14,4 +15,6 @@ twitter: Pendiente
 instagram: Pendiente
 tiktok: Pendiente
 fundacion: 2021-04-01T17:55:29.216Z
+resumen: xx
+candidaturas: xx
 ---

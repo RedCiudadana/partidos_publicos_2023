@@ -1,6 +1,7 @@
 ---
 title: NUEVOS TIEMPOS
 nombrecorto: NT
+imagen: /src/assets/posts/29_nuevos-tiempos.png
 estado: Activo
 secretario: César Andrés Montiel Sagarminaga
 secretariofunciones: César Andrés Montiel Sagarminaga
@@ -13,4 +14,6 @@ twitter: Pendiente
 instagram: Pendiente
 tiktok: Pendiente
 fundacion: 2022-12-07T18:29:25.592Z
+resumen: xxx
+candidaturas: xxx
 ---

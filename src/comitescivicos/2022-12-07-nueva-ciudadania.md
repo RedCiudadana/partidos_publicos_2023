@@ -1,6 +1,7 @@
 ---
 title: NUEVA CIUDADANIA
 nombrecorto: NC
+imagen: /src/assets/posts/01_nueva-ciudadania.png
 estado: Inactivo
 secretario: Edgar Rolando Guzmán Fuentes
 secretariofunciones: Edgar Rolando Guzmán Fuentes
@@ -13,4 +14,6 @@ twitter: EN PROCESO DE CANCELACIÓN
 instagram: EN PROCESO DE CANCELACIÓN
 tiktok: EN PROCESO DE CANCELACIÓN
 fundacion: 2022-12-07T15:31:28.556Z
+resumen: xxxx
+candidaturas: xxx
 ---

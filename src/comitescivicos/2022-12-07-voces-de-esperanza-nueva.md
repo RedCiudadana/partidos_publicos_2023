@@ -1,6 +1,7 @@
 ---
 title: VOCES DE ESPERANZA NUEVA
 nombrecorto: VEN
+imagen: /src/assets/posts/17_voces-de-esperanza-nueva-ven.png
 estado: Activo
 secretario: Mario Roberto Valdeavellano Hernandez
 secretariofunciones: Mario Roberto Valdeavellano Hernandez
@@ -14,4 +15,6 @@ twitter: Pendiente
 instagram: Pendiente
 tiktok: Pendiente
 fundacion: 2021-07-01T18:14:47.838Z
+resumen: xx
+candidaturas: xx
 ---

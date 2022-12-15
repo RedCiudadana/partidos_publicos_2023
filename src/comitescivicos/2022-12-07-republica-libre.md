@@ -1,6 +1,7 @@
 ---
 title: REPUBLICA LIBRE
 nombrecorto: RL
+imagen: /src/assets/posts/24_republica-libre.png
 estado: Activo
 secretario: Carlos Roberto Pérez Gaitán
 secretariofunciones: Carlos Roberto Pérez Gaitán
@@ -14,4 +15,6 @@ twitter: Pendiente
 instagram: Pendiente
 tiktok: Pendiente
 fundacion: 2022-12-07T18:24:39.487Z
+resumen: xx
+candidaturas: xx
 ---

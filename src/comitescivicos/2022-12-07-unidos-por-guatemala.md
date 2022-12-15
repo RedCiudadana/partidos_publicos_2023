@@ -1,6 +1,7 @@
 ---
 title: UNIDOS POR GUATEMALA
 nombrecorto: UPG
+imagen: /src/assets/posts/11_unidos-por-guatemala.png
 estado: Activo
 secretario: Benita Odilia De Leon Perez De Chiroy
 secretariofunciones: Benita Odilia De Leon Perez De Chiroy
@@ -13,4 +14,6 @@ twitter: Pendiente
 instagram: Pendiente
 tiktok: Pendiente
 fundacion: 2021-06-24T18:06:17.189Z
+resumen: xx
+candidaturas: xx
 ---

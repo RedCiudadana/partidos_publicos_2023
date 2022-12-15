@@ -1,6 +1,7 @@
 ---
 title: UNION NACIONAL ORGANIZADO
 nombrecorto: UNO
+imagen: /src/assets/posts/12_unionnacionalorganizado.png
 estado: Activo
 secretario: Eladio Flores Marroquin
 secretariofunciones: Eladio Flores Marroquin
@@ -13,4 +14,6 @@ twitter: Pendiente
 instagram: Pendiente
 tiktok: Pendiente
 fundacion: 2021-06-19T18:31:17.684Z
+resumen: xxxx
+candidaturas: xxxx
 ---
