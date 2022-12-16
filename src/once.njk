@@ -11,11 +11,11 @@ permalink: "once/index.html"
 
 {% block content %}
 
-    <div class="section m-0" style="background-image:url('/src/assets/banners/PP_01-12.png');">
+    <div class="section m-0 bg-home">
 		<div class="container">
 			<div class="row">
-
-				<div style="height:350px"></div>
+				<!--Texto-->
+				<div></div>
 			</div>
 		</div>
 	</div>
@@ -23,23 +23,17 @@ permalink: "once/index.html"
 		<div class="container">
 			<div class="row">
 
-                {% for partido in collections.partidospublicos%}
-                <div class="col-lg-3 my-4">
+                <a href="#" target="_blank" class="col-lg-3 my-4">
                     <div class="cuadro_partido h-100 ">
                         <div class="div_imagen">
-                            {% if partido.data.imagen %}
-                            <img src="{{partido.data.imagen}}">
-                            {%  else %}
-                            <img src="/src/assets/imgs/placeholder.png">
-                            {% endif %} 
-                            <h1>{{partido.data.title | capitalize}} ({{partido.data.nombrecorto}})</h1>
+                            <img src="/src/assets/imgs/placeholder.png">   
                         </div>
                         <div class="texto">
-                            <a href="{{partido.url}}" class="masinfo">Más Información</a>
+                            <h5 style="font-weight:600">TSE</h5>
+                            <p>Mecanismos que faciliten y promuevan el empadronamiento a la ciudadanía de forma masiva y a través de todos los medios de comunicación posibles.</p>
                         </div>
                     </div>
-                </div>
-                {% endfor %}
+                </a>
 
 			</div>
 		</div>
