@@ -17207,6 +17207,13 @@ label.checkbox { padding-left: 20px; }
 	}
 }
 
+@media only screen and (max-width: 1200px) {
+	.bg-home{
+		height: 480px;
+	}
+}
+
+
 @media only screen and (max-width: 400px) {
 	.bg-home{
 		height: 450px;
