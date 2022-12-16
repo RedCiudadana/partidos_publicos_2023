@@ -12,13 +12,18 @@ permalink: "partidos/index.html"
 
 {% block content %}
 
-    <div class="section m-0" style="background-color:#01a19b">
+    <div class="section m-0" style="background-image:url('/src/assets/banners/PP_01-12.png');">
 		<div class="container">
 			<div class="row justify-content-center">
 				<!--Texto-->
-                <div class="col-lg-6 col-sm-12">
-                    <input autocomplete="off" id="search" type="search" placeholder="Busca algún Partido Público..." />
-                    <ol id="results" />
+                <div class="col-lg-6 col-sm-12 my-4 text-center">
+                    <h2 class="text-white" style="font-weight:600">Buscar Partidos Políticos</h2>
+                    <div class="search">
+                        <input autocomplete="off" id="search" type="search" placeholder="Busca el Partido Político" />
+                    </div>
+                    <div class="relative">
+                        <ol id="results" />
+                    </div>
                 </div>			
 			</div>
 		</div>

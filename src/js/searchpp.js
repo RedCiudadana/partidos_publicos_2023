@@ -17,18 +17,23 @@ document.addEventListener('DOMContentLoaded', function(event) {
   
     const showList = () => {
       results.innerHTML = '';
+      results.setAttribute("class","")
       if (search_term.length <= 0) return;
       const match = new RegExp(`${search_term}`, 'gi');
       let result = data.filter(partido => match.test(partido.title) || match.test(partido.nombrecorto));
       if (result.length == 0) {
         const li = document.createElement('li');
-        li.innerHTML = `No results found 😢`;
+        li.innerHTML = `No se encontraron resultados`;
         results.appendChild(li);
+        results.setAttribute("class","results")
       }
       result.forEach(e => {
-        const li = document.createElement('li');
-        li.innerHTML = `<a href="${e.url}">${e.title}</a>`;
-        results.appendChild(li);
+        const a = document.createElement('a');
+        a.href = e.url;
+        a.setAttribute("class","result_ind");
+        a.innerHTML = `<li>${e.title} (${e.nombrecorto})</li>`;
+        results.appendChild(a);
+        results.setAttribute("class","results")
       });
     };
   });
