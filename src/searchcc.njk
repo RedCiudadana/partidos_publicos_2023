@@ -1,0 +1,13 @@
+---
+permalink: '/searchcc.json'
+---
+
+[
+  {% for comite in collections.comitecivicos %} 
+  { 
+    "title":"{{ comite.data.title | capitalize }}",
+    "nombrecorto":"{{ comite.data.nombrecorto }}",
+    "url":"{{ comite.url }}" 
+  }
+  {% if loop.last == false %},{% endif %} {% endfor %} 
+]

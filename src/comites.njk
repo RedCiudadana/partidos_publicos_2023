@@ -11,11 +11,19 @@ permalink: "comites/index.html"
 
 {% block content %}
 
-    <div class="section m-0" style="background-color:#01a19b">
+    <div class="section m-0" style="background-image:url('/src/assets/banners/PP_01-12.png');">
 		<div class="container">
-			<div class="row">
+			<div class="row justify-content-center">
 				<!--Texto-->
-				<div style="height:350px"></div>
+				<div class="col-lg-6 col-sm-12 my-4 text-center">
+                    <h2 class="text-white" style="font-weight:600">Buscar Comites Cívicos</h2>
+                    <div class="search">
+                        <input autocomplete="off" id="search" type="search" placeholder="Busca el Comité Cívico" />
+                    </div>
+                    <div class="relative">
+                        <ol id="results" />
+                    </div>
+                </div>	
 			</div>
 		</div>
 	</div>
@@ -45,18 +53,8 @@ permalink: "comites/index.html"
 		</div>
 	</div>
 
+{% endblock %}
 
-    <!--div class="d-flex justify-content-center">
-        {% if pagination.href.previous %}
-        <div class="mx-4">
-            {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← Blogs más recientes</a>{% else %}←  Nuevos blog{% endif %}
-        </div>
-        {% endif %}
-        {% if pagination.href.next %}
-        <div class="mx-4">
-            {% if pagination.href.next %}<a href="{{ pagination.href.next }}">Blogs anteriores →</a>{% else %}Blog anteriores →{% endif %}
-        </div>
-        {% endif %}
-    </div-->
-
+{% block body_javascripts %}
+    <script src="/src/js/searchcc.js"></script>
 {% endblock %}
