@@ -31,7 +31,11 @@ permalink: "index.html"
 						que la trnasparencia sea útil y entendible!</p>
 				</div>
 				<div class="col-lg-6 d-flex justify-content-center">
-					<img width="100%" src="/src/assets/imgs/video_placeholder.png">
+					{% for video in collections.videos%}
+					<div class="video">
+						<iframe style="width:500px!important" height="330px" src="{{video.data.link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					{% endfor %}
 				</div>
 			</div>
 		</div>
@@ -42,47 +46,51 @@ permalink: "index.html"
 			<div class="row my-6">
 				<div class="col-lg-8 my-4">
 					<h3 style="font-weight:600">Blogs</h3>
-					
+					{% for novedad in collections.novedades%}
 					<div class="novedad">
-						<img src="/src/assets/imgs/cuadro_gris.png">
+						<img src="{{novedad.data.image}}">
 						<div class="texto">
-							<h6 class="text-left">Enero 30, 2022</h6>
-							<h3>Lorem ipsum dolor sat</h3>
-							<p>Red Ciudadana</p>
+							<h6 class="text-left">{{novedad.data.fecha | dateFormat('DD/MM/YYYY')}}</h6>
+							<h3>{{novedad.data.title}}</h3>
+							<p>{{novedad.data.autor}}</p>
 						</div>
 					</div>
-
 					<div class="novedad">
-						<img src="/src/assets/imgs/cuadro_gris.png">
+						<img src="{{novedad.data.image}}">
 						<div class="texto">
-							<h6 class="text-left">Enero 30, 2022</h6>
-							<h3>Lorem ipsum dolor sat</h3>
-							<p>Red Ciudadana</p>
+							<h6 class="text-left">{{novedad.data.fecha | dateFormat('DD/MM/YYYY')}}</h6>
+							<h3>{{novedad.data.title}}</h3>
+							<p>{{novedad.data.autor}}</p>
 						</div>
 					</div>
-
 					<div class="novedad">
-						<img src="/src/assets/imgs/cuadro_gris.png">
+						<img src="{{novedad.data.image}}">
 						<div class="texto">
-							<h6 class="text-left">Enero 30, 2022</h6>
-							<h3>Lorem ipsum dolor sat</h3>
-							<p>Red Ciudadana</p>
+							<h6 class="text-left">{{novedad.data.fecha | dateFormat('DD/MM/YYYY')}}</h6>
+							<h3>{{novedad.data.title}}</h3>
+							<p>{{novedad.data.autor}}</p>
 						</div>
 					</div>
-
 					<div class="novedad">
-						<img src="/src/assets/imgs/cuadro_gris.png">
+						<img src="{{novedad.data.image}}">
 						<div class="texto">
-							<h6 class="text-left">Enero 30, 2022</h6>
-							<h3>Lorem ipsum dolor sat</h3>
-							<p>Red Ciudadana</p>
+							<h6 class="text-left">{{novedad.data.fecha | dateFormat('DD/MM/YYYY')}}</h6>
+							<h3>{{novedad.data.title}}</h3>
+							<p>{{novedad.data.autor}}</p>
 						</div>
 					</div>
+					{% endfor %}
 
 				</div>
 				<div class="col-lg-4 my-4">
 					<h3 style="font-weight:600">Videos</h3>
 					{% for video in collections.videos%}
+					<div class="video">
+						<iframe height="200px" src="{{video.data.link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="video">
+						<iframe height="200px" src="{{video.data.link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
 					<div class="video">
 						<iframe height="200px" src="{{video.data.link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
