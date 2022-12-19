@@ -82,15 +82,11 @@ permalink: "index.html"
 				</div>
 				<div class="col-lg-4 my-4">
 					<h3 style="font-weight:600">Videos</h3>
+					{% for video in collections.videos%}
 					<div class="video">
-						<img src="/src/assets/imgs/video_placeholder.png">
+						<iframe height="200px" src="{{video.data.link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
-					<div class="video">
-						<img src="/src/assets/imgs/video_placeholder.png">
-					</div>
-					<div class="video">
-						<img src="/src/assets/imgs/video_placeholder.png">
-					</div>
+					{% endfor %}
 				</div>
 			</div>
 		</div>
