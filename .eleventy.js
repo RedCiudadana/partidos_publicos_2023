@@ -7,6 +7,7 @@ module.exports = function (eleventyConfig) {
     
     eleventyConfig.addPassthroughCopy('src');
     eleventyConfig.addPassthroughCopy('admin');
+    eleventyConfig.addPassthroughCopy('assets');
 
     /* Filtros */
 
