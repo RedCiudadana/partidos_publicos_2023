@@ -16,8 +16,8 @@
                 </div>
             </div>
 
-            <div class="row my-4 m-o-responsive">
-                <!--Tabs-->
+            <!--div class="row my-4 m-o-responsive">
+                
                 <div class="tab col-lg-12 p-1">
                     <button class="tablinks h-100" onclick="openTab(event, 'partido')" id="defaultOpen"><i class="lni lni-grid-alt" style="margin-right:10px"></i>Partido Político</button>
                     <button class="tablinks h-100" onclick="openTab(event, 'presencia')"><i class="fa-sharp fa-solid fa-location-dot" style="margin-right:10px"></i>Presencia Nacional</button>
@@ -25,259 +25,271 @@
                     <button class="tablinks h-100" onclick="openTab(event, 'sanciones')"><i class="fa-solid fa-x" style="margin-right:10px"></i>Sanciones</button>
                 </div>
 
-            </div>
+            </div-->
 
             <div class="row my-4">
-                <div id="partido" class="tabcontent">
-                    <div class="row my-4 p-4 m-o-responsive" style="background-color:#fff">
-                        <div class="col-lg-3 logo_partido d-flex justify-content-center align-items my-4" style="flex-direction:column">
-                            {% if imagen %}
-                            <img src="{{imagen}}">
-                            {%  else %}
-                            <img src="/src/assets/imgs/placeholder.png">
-                            {% endif %} 
+                <!--div id="partido" class="tabcontent"-->
+                <div class="row my-4 p-4 m-o-responsive" style="background-color:#fff">
+                    <div class="col-lg-3 logo_partido d-flex justify-content-center align-items my-4" style="flex-direction:column">
+                        {% if imagen %}
+                        <img src="{{imagen}}">
+                        {%  else %}
+                        <img src="/src/assets/imgs/placeholder.png">
+                        {% endif %} 
+                    </div>
+                    <div class="col-lg-6 informacion_partido d-flex justify-content-center align-items my-4 p-responsive" style="flex-direction:column">
+                        <h2 style="font-weight:600">{{nombrecorto}}</h2>
+                        <!--div class="d-flex">
+                            <p style="font-weight:600">Nombre: &nbsp</p>
+                            <p>{{title | capitalize}}</p>
                         </div>
-                        <div class="col-lg-6 informacion_partido d-flex justify-content-center align-items my-4 p-responsive" style="flex-direction:column">
-                            <h2 style="font-weight:600">{{nombrecorto}}</h2>
-                            <!--div class="d-flex">
-                                <p style="font-weight:600">Nombre: &nbsp</p>
-                                <p>{{title | capitalize}}</p>
-                            </div>
-                            <div class="d-flex">
-                                <p  style="font-weight:600">Estado: &nbsp</p>
-                                <p>{{estado}}</p>
-                            </div-->
-                            <div class="d-flex">
-                                <p  style="font-weight:600">Secretario General: &nbsp</p>
-                                <p>{{secretario}}</p>
-                            </div>
-                            <div class="d-flex">
-                                <p  style="font-weight:600">Fundación: &nbsp</p>
-                                <p>{{ fundacion | dateFormat('DD/MM/YYYY')}}</p>
-                            </div>
-                            <div class="d-flex">
-                                <p  style="font-weight:600">Dirección: &nbsp</p>
-                                <p>{{direccion}}</p>
-                            </div>
-                            <div class="d-flex">
-                                <p  style="font-weight:600">Teléfono: &nbsp</p>
-                                <p>{{telefono}}</p>
-                            </div>
-                            <div class="d-flex">
-                                <p  style="font-weight:600">Correo Electrónico: &nbsp</p>
-                                <p>{{correo}}</p>
-                            </div>
+                        <div class="d-flex">
+                            <p  style="font-weight:600">Estado: &nbsp</p>
+                            <p>{{estado}}</p>
+                        </div-->
+                        <div class="d-flex">
+                            <p  style="font-weight:600">Secretario General: &nbsp</p>
+                            <p>{{secretario}}</p>
                         </div>
-                        <div class="col-lg-3 contacto_partido d-flex justify-content-center align-items linea_izquierda" style="flex-direction:column">
-                            <h6 style="font-weight:600;text-align:left;font-size:20px">Contacto</h6>
-                            {% if paginaweb != "Pendiente" and paginaweb != "" %}
-                            <div class="d-flex">
-                                <img src="/src/assets/iconos/web.png" class="red_perfil"><a target="_blank" href="{{paginaweb}}"> Página Web</a>
-                            </div>
-                            {% endif %}
-                            {% if twitter != "Pendiente" and twitter != "" %}
-                            <div class="d-flex">
-                                <img src="/src/assets/iconos/twitter.png" class="red_perfil"><a target="_blank" href="{{twitter}}"> Twitter</a>
-                            </div>
-                            {% endif %}
-                            {% if facebook != "Pendiente" and facebook != "" %}
-                            <div class="d-flex">
-                                <img src="/src/assets/iconos/fb.png" class="red_perfil"><a target="_blank" href="{{facebook}}"> Facebook</a>
-                            </div>
-                            {% endif %}
-                            {% if instagram != "Pendiente" and instagram != "" %}
-                            <div class="d-flex">
-                                <img src="/src/assets/iconos/instagram.png" class="red_perfil"><a target="_blank" href="{{instagram}}"> Instagram</a>
-                            </div>
-                            {% endif %}
-                            {% if tiktok != "Pendiente" and tiktok != "" %}
-                            <div class="d-flex">
-                                <img src="/src/assets/iconos/tiktok.png" class="red_perfil"><a target="_blank" href="{{tiktok}}"> Tik Tok</a>
-                            </div>
-                            {% endif %}
+                        <div class="d-flex">
+                            <p  style="font-weight:600">Fundación: &nbsp</p>
+                            <p>{{ fundacion | dateFormat('DD/MM/YYYY')}}</p>
+                        </div>
+                        <div class="d-flex">
+                            <p  style="font-weight:600">Dirección: &nbsp</p>
+                            <p>{{direccion}}</p>
+                        </div>
+                        <div class="d-flex">
+                            <p  style="font-weight:600">Teléfono: &nbsp</p>
+                            <p>{{telefono}}</p>
+                        </div>
+                        <div class="d-flex">
+                            <p  style="font-weight:600">Correo Electrónico: &nbsp</p>
+                            <p>{{correo}}</p>
                         </div>
                     </div>
-
-                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
-                        <div class="col-lg-12 cuadro_titulo">
-                            <img src="/src/assets/iconos/pp1.png" style="margin:0 25px">Resumen
+                    <div class="col-lg-3 contacto_partido d-flex justify-content-center align-items linea_izquierda" style="flex-direction:column">
+                        <h6 style="font-weight:600;text-align:left;font-size:20px">Contacto</h6>
+                        {% if paginaweb != "Pendiente" and paginaweb != "" %}
+                        <div class="d-flex">
+                            <img src="/src/assets/iconos/web.png" class="red_perfil"><a target="_blank" href="{{paginaweb}}"> Página Web</a>
                         </div>
-                        <div class="col-lg-12 cuadro_contenido">
-                            <p>{{resumen}}</p>
+                        {% endif %}
+                        {% if twitter != "Pendiente" and twitter != "" %}
+                        <div class="d-flex">
+                            <img src="/src/assets/iconos/twitter.png" class="red_perfil"><a target="_blank" href="{{twitter}}"> Twitter</a>
                         </div>
+                        {% endif %}
+                        {% if facebook != "Pendiente" and facebook != "" %}
+                        <div class="d-flex">
+                            <img src="/src/assets/iconos/fb.png" class="red_perfil"><a target="_blank" href="{{facebook}}"> Facebook</a>
+                        </div>
+                        {% endif %}
+                        {% if instagram != "Pendiente" and instagram != "" %}
+                        <div class="d-flex">
+                            <img src="/src/assets/iconos/instagram.png" class="red_perfil"><a target="_blank" href="{{instagram}}"> Instagram</a>
+                        </div>
+                        {% endif %}
+                        {% if tiktok != "Pendiente" and tiktok != "" %}
+                        <div class="d-flex">
+                            <img src="/src/assets/iconos/tiktok.png" class="red_perfil"><a target="_blank" href="{{tiktok}}"> Tik Tok</a>
+                        </div>
+                        {% endif %}
                     </div>
-
-                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
-                        <div class="col-lg-12 cuadro_titulo">
-                            <img src="/src/assets/iconos/pp5.png" style="margin:0 25px">Candidaturas
-                        </div>
-                        <div class="col-lg-12 cuadro_contenido">
-                            <p>{{resumen}}</p>
-                        </div>
-                    </div>
-
-                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
-                        <div class="col-lg-12 cuadro_titulo">
-                            <img src="/src/assets/iconos/pp2.png" style="margin:0 25px">Informes Financieros
-                        </div>
-                        <div class="col-lg-12 cuadro_contenido">
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit viverra per, 
-                                dignissim tortor suspendisse eu conubia lacus ac egestas vestibulum 
-                                feugiat, ornare est ligula nisi dictumst fames curae montes. Quisque 
-                                himenaeos sed donec habitant class litora, est dictum phasellus 
-                                cubilia parturient vitae, volutpat tincidunt sem platea sociosqu. 
-                                Suspendisse non auctor nullam mi est penatibus phasellus porttitor 
-                                massa tellus dignissim, porta cras habitant conubia ullamcorper netus 
-                                aliquet cum ligula curabitur ridiculus, vivamus eu aenean elementum 
-                                at taciti pellentesque varius sociis urna.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!--div class="row my-4 m-o-responsive" >
-
-                        <div class="col-lg-4 my-4 d-flex justify-content-center" style="flex-direction:column; align-items:center">
-                            <a href="https://candidatos.redciudadana.org/" target="_blank"><img src="/src/assets/imgs/placeholder.png"></a>
-                            <a href="https://candidatos.redciudadana.org/" target="_blank"><h5 class="titulo_partidos">CandiDatos</h5></a>
-                        </div>
-                        <div class="col-lg-4 my-4 d-flex justify-content-center" style="flex-direction:column; align-items:center">
-                            <a href="http://semaforoelectoral.redciudadana.org/" target="_blank"><img src="/src/assets/imgs/placeholder.png"></a>
-                            <a href="http://semaforoelectoral.redciudadana.org/" target="_blank"><h5 class="titulo_partidos">Semáforo Electoral</h5></a>
-                        </div>
-                        <div class="col-lg-4 my-4 d-flex justify-content-center" style="flex-direction:column; align-items:center">
-                            <a href="http://financiamiento.redciudadana.org/" target="_blank"><img src="/src/assets/imgs/placeholder.png"></a>
-                            <a href="http://financiamiento.redciudadana.org/" target="_blank"><h5 class="titulo_partidos">Financiamiento Electoral</h5></a>
-                        </div>
-                        
-                    </div-->
                 </div>
 
-                <div id="presencia" class="tabcontent">
-                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
-                        <div class="col-lg-12 cuadro_titulo">
-                            <img src="/src/assets/iconos/pp3.png" style="margin:0 25px">Número de Afiliados
-                        </div>
-                        <div class="col-lg-12 cuadro_contenido">
-                            <!--Afiliados-->
-                            <div class="row">
-                                {% for afiliados in collections.afiliados%}
-                                {% if afiliados.data.title == title%}
-                                <div class="col-lg-4 d-flex justify-content-center my-4" style="align-items:center">
-                                    <div>
-                                        <h3 style="font-weight:600">Total de Afiliados</h3>
-                                        <h3 class="conteo_total">{{afiliados.data.total}}</h3>
-                                        {% if afiliados.data.fecha %}
-                                        <h6 style="font-weight:600">Fecha de Actualización: {{afiliados.data.fecha | dateFormat('DD/MM/YYYY')}}</h6>
-                                        {% else %}
-                                        <h6 style="font-weight:600">Fecha de Actualización Indefinida</h6>
-                                        {% endif %}
-                                    </div>
+                <div class="row my-4 m-o-responsive " style="background-color:#fff">
+                    <div class="col-lg-12 cuadro_titulo">
+                        <img src="/src/assets/iconos/pp1.png" style="margin:0 25px">Resumen
+                    </div>
+                    <div class="col-lg-12 cuadro_contenido">
+                        <p>{{resumen}}{{resumen}}{{resumen}}{{resumen}}{{resumen}}{{resumen}}{{resumen}}
+                            {{resumen}}{{resumen}}{{resumen}}{{resumen}}{{resumen}}{{resumen}}{{resumen}}
+                            {{resumen}}{{resumen}}{{resumen}}{{resumen}}{{resumen}}{{resumen}}{{resumen}}
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row my-4 m-o-responsive " style="background-color:#fff">
+                    <div class="col-lg-12 cuadro_titulo">
+                        <img src="/src/assets/iconos/pp5.png" style="margin:0 25px">Candidaturas
+                    </div>
+                    <div class="col-lg-12 cuadro_contenido">
+                        <p>{{resumen}}{{resumen}}{{resumen}}{{resumen}}{{resumen}}{{resumen}}{{resumen}}
+                            {{resumen}}{{resumen}}{{resumen}}{{resumen}}{{resumen}}{{resumen}}{{resumen}}
+                            {{resumen}}{{resumen}}{{resumen}}{{resumen}}{{resumen}}{{resumen}}{{resumen}}
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row my-4 m-o-responsive" style="background-color:#fff">
+                    <div class="col-lg-12 cuadro_titulo">
+                        <img src="/src/assets/iconos/pp3.png" style="margin:0 25px">Número de Afiliados
+                    </div>
+                    <div class="col-lg-12 cuadro_contenido">
+                        <!--Afiliados-->
+                        <div class="row">
+                            {% for afiliados in collections.afiliados%}
+                            {% if afiliados.data.title == title%}
+                            <div class="col-lg-4 d-flex justify-content-center my-4" style="align-items:center">
+                                <div>
+                                    <h3 style="font-weight:600">Total de Afiliados</h3>
+                                    <h3 class="conteo_total">{{afiliados.data.total}}</h3>
+                                    {% if afiliados.data.fecha %}
+                                    <h6 style="font-weight:600">Fecha de Actualización: {{afiliados.data.fecha | dateFormat('DD/MM/YYYY')}}</h6>
+                                    {% else %}
+                                    <h6 style="font-weight:600">Fecha de Actualización Indefinida</h6>
+                                    {% endif %}
                                 </div>
-                                <div class="col-lg-4">
-                                    <div id="hombres" class="d-none">{{afiliados.data.hombres}}</div>
-                                    <div id="mujeres" class="d-none">{{afiliados.data.mujeres}}</div>
-                                    <div class="chartbox">
-                                        <canvas width="100%" height="100%" id="dona"></canvas>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 d-flex justify-content-center my-4" style="align-items:center">
-                                    <div class="label_hombres"></div>Hombres
-                                    <div class="label_mujeres"></div>Mujeres
-                                </div>
-                                {% endif %}
-                                {% endfor %}
                             </div>
+                            <div class="col-lg-4">
+                                <div id="hombres" class="d-none">{{afiliados.data.hombres}}</div>
+                                <div id="mujeres" class="d-none">{{afiliados.data.mujeres}}</div>
+                                <div class="chartbox">
+                                    <canvas width="100%" height="100%" id="dona"></canvas>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-flex justify-content-center my-4" style="align-items:center">
+                                <div class="label_hombres"></div>Hombres
+                                <div class="label_mujeres"></div>Mujeres
+                            </div>
+                            {% endif %}
+                            {% endfor %}
                         </div>
                     </div>
                 </div>
 
-                <div id="participar" class="tabcontent">
-                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
-                        <div class="col-lg-12 cuadro_titulo">
-                            <img src="/src/assets/iconos/pp2.png" style="margin:0 25px">Afiliación y Desafiliación
-                        </div>
-                        <div class="col-lg-12 cuadro_contenido">
-                            <h3>Afiliación</h3>
-                            <p style="text-align:justify">Según el artículo 149 de la Ley electoral y de Partidos políticos, la afiliación 
-                                es el procedimiento por medio del cual un ciudadano empadronado y en el goce de 
-                                sus derechos cívicos y políticos pasa a ser miembro activo de un partido político 
-                                por medio de manifestar su deseo de formar parte de este. Los guatemaltecos pueden 
-                                libremente afiliarse a las organizaciones políticas de acuerdo con su voluntad y 
-                                con los estatutos de dichas organizaciones. Sin embargo, la afiliación a más de un 
-                                partido político es prohibida.
-                            </p>
-                            <a href="https://tse.org.gt/index.php/sistema-de-estadisticas/consulta-de-afiliacion" target="_blank" class="masinfo"><i class="fa-solid fa-download" style="margin-right:10px"></i>Más Información</a>
-                            <div class="linea_gris"></div>
-                            <h3>Desafiliación</h3>
-                            <p style="text-align:justify">Según el artículo 17 de la Ley electoral y de Partidos políticos, los guatemaltecos 
-                                pueden desafiliarse de manera voluntaria de un partido político esta debe ser expresa, 
-                                presentada ante el partido político o ante el Registro de Ciudadanos. En ambos casos, 
-                                quien conozca de la renuncia deberá notificarla al Registro de Ciudadanos o al Partido 
-                                Político, según proceda, en un plazo no mayor de treinta días. Si la renuncia fuese de 
-                                un afiliado que desempeña cargo dentro de un órgano permanente del partido y como 
-                                resultado de la misma se ocasiona la desintegración de aquel, el renunciante deberá 
-                                ratificarla personalmente ante el Registro de Ciudadanos, la delegación departamental 
-                                o subdelegación municipal del Tribunal Supremo Electoral, según sea el caso. 
-                            </p>
-                            <a href="https://tse.org.gt/index.php/sistema-de-estadisticas/consulta-de-afiliacion" target="_blank" class="masinfo"><i class="fa-solid fa-download" style="margin-right:10px"></i>Más Información</a>
-                        </div>
+                <div class="row my-4 m-o-responsive" style="background-color:#fff">
+                    <div class="col-lg-12 cuadro_titulo">
+                        <img src="/src/assets/iconos/pp2.png" style="margin:0 25px">Afiliación y Desafiliación
+                    </div>
+                    <div class="col-lg-12 cuadro_contenido">
+                        <h3>Afiliación</h3>
+                        <p style="text-align:justify">Según el artículo 149 de la Ley electoral y de Partidos políticos, la afiliación 
+                            es el procedimiento por medio del cual un ciudadano empadronado y en el goce de 
+                            sus derechos cívicos y políticos pasa a ser miembro activo de un partido político 
+                            por medio de manifestar su deseo de formar parte de este. Los guatemaltecos pueden 
+                            libremente afiliarse a las organizaciones políticas de acuerdo con su voluntad y 
+                            con los estatutos de dichas organizaciones. Sin embargo, la afiliación a más de un 
+                            partido político es prohibida.
+                        </p>
+                        <a href="https://tse.org.gt/index.php/sistema-de-estadisticas/consulta-de-afiliacion" target="_blank" class="masinfo"><i class="fa-solid fa-download" style="margin-right:10px"></i>Más Información</a>
+                        <div class="linea_gris"></div>
+                        <h3>Desafiliación</h3>
+                        <p style="text-align:justify">Según el artículo 17 de la Ley electoral y de Partidos políticos, los guatemaltecos 
+                            pueden desafiliarse de manera voluntaria de un partido político esta debe ser expresa, 
+                            presentada ante el partido político o ante el Registro de Ciudadanos. En ambos casos, 
+                            quien conozca de la renuncia deberá notificarla al Registro de Ciudadanos o al Partido 
+                            Político, según proceda, en un plazo no mayor de treinta días. Si la renuncia fuese de 
+                            un afiliado que desempeña cargo dentro de un órgano permanente del partido y como 
+                            resultado de la misma se ocasiona la desintegración de aquel, el renunciante deberá 
+                            ratificarla personalmente ante el Registro de Ciudadanos, la delegación departamental 
+                            o subdelegación municipal del Tribunal Supremo Electoral, según sea el caso. 
+                        </p>
+                        <a href="https://tse.org.gt/index.php/sistema-de-estadisticas/consulta-de-afiliacion" target="_blank" class="masinfo"><i class="fa-solid fa-download" style="margin-right:10px"></i>Más Información</a>
                     </div>
                 </div>
 
-                <div id="sanciones" class="tabcontent">
-                    <div class="row my-4 m-o-responsive" style="background-color:#fff">
-                        <div class="col-lg-12 cuadro_titulo">
-                            <img src="/src/assets/iconos/pp4.png" style="margin:0 25px">Sanciones Aplicadas al Partido
-                        </div>
-                        <div class="col-lg-12 cuadro_contenido">
-                            <p style="text-align:justify">Según el artículo 88 de la Ley electoral y de Partidos políticos, El Tribunal Supremo 
-                                Electoral, impondrá sanciones a las organizaciones políticas y candidatos, por 
-                                infracción a normas de la presente Ley y a las que rigen su constitución y funcionamiento. 
-                                Dependiendo de la gravedad de la infracción y de la jurisdicción ya sea nacional, 
-                                departamental o municipal según corresponda, sin que exista un orden de prelación, 
-                                impondrá las siguientes sanciones: a) Amonestación pública o privada; b) Multa; 
-                                c) Suspensión temporal; d) Suspensión de la facultad de recibir financiamiento 
-                                político público o privado en caso de contravención a las normas que regulan el 
-                                financiamiento y fiscalización de las organizaciones políticas; e) Cancelación del partido; 
-                                f) Las demás contempladas en la presente Ley. Las sanciones antes citadas se pueden 
-                                imponer a las organizaciones políticas, a sus afiliados y a los candidatos que participen 
-                                en la elección.
-                            </p>
-                            {% set conteo = 0 %}
+                <div class="row my-4 m-o-responsive" style="background-color:#fff">
+                    <div class="col-lg-12 cuadro_titulo">
+                        <img src="/src/assets/iconos/pp4.png" style="margin:0 25px">Sanciones Aplicadas al Partido
+                    </div>
+                    <div class="col-lg-12 cuadro_contenido">
+                        <p style="text-align:justify">Según el artículo 88 de la Ley electoral y de Partidos políticos, El Tribunal Supremo 
+                            Electoral, impondrá sanciones a las organizaciones políticas y candidatos, por 
+                            infracción a normas de la presente Ley y a las que rigen su constitución y funcionamiento. 
+                            Dependiendo de la gravedad de la infracción y de la jurisdicción ya sea nacional, 
+                            departamental o municipal según corresponda, sin que exista un orden de prelación, 
+                            impondrá las siguientes sanciones: a) Amonestación pública o privada; b) Multa; 
+                            c) Suspensión temporal; d) Suspensión de la facultad de recibir financiamiento 
+                            político público o privado en caso de contravención a las normas que regulan el 
+                            financiamiento y fiscalización de las organizaciones políticas; e) Cancelación del partido; 
+                            f) Las demás contempladas en la presente Ley. Las sanciones antes citadas se pueden 
+                            imponer a las organizaciones políticas, a sus afiliados y a los candidatos que participen 
+                            en la elección.
+                        </p>
+                        {% set conteo = 0 %}
+                        {% if collections.sancionespartidos %}
+                        {% for sancion in collections.sancionespartidos %}
+                        {% if sancion.data.title == title %}
+                        {% set conteo = conteo + 1 %}
+                        {% endif %}
+                        {% endfor %}
+                        {% endif %}
+                        {% if conteo == 0 %}
+                        <h5 class="verde" style="font-weight:600;text-transform:inherit">No se encontró información oficial sobre sanciones en la página web del TSE</h5>
+                        {% else %}
+                        <table class="w-100 tabla_sanciones">
+                            <tr>
+                                <th>Fecha</th>
+                                <th>Descripción</th>
+                                <th>Estado</th>
+                                <th>Tipo de Sanción</th>
+                            </tr>
                             {% if collections.sancionespartidos %}
                             {% for sancion in collections.sancionespartidos %}
                             {% if sancion.data.title == title %}
-                            {% set conteo = conteo + 1 %}
+                            <tr>                                   
+                                <td>{{sancion.data.fecha | dateFormat('DD/MM/YYYY')}}</td>
+                                <td>{{sancion.data.descripcion}}</td>
+                                <td>{{sancion.data.estado}}</td>
+                                <td class="verde">{{sancion.data.tiposancion}}</td>
+                            </tr>
                             {% endif %}
                             {% endfor %}
                             {% endif %}
-                            {% if conteo == 0 %}
-                            <h5 class="verde" style="font-weight:600;text-transform:inherit">No se encontró información oficial sobre sanciones en la página web del TSE</h5>
-                            {% else %}
-                            <table class="w-100 tabla_sanciones">
-                                <tr>
-                                    <th>Fecha</th>
-                                    <th>Descripción</th>
-                                    <th>Estado</th>
-                                    <th>Tipo de Sanción</th>
-                                </tr>
-                                {% if collections.sancionespartidos %}
-                                {% for sancion in collections.sancionespartidos %}
-                                {% if sancion.data.title == title %}
-                                <tr>                                   
-                                    <td>{{sancion.data.fecha | dateFormat('DD/MM/YYYY')}}</td>
-                                    <td>{{sancion.data.descripcion}}</td>
-                                    <td>{{sancion.data.estado}}</td>
-                                    <td class="verde">{{sancion.data.tiposancion}}</td>
-                                </tr>
-                                {% endif %}
-                                {% endfor %}
-                                {% endif %}
-                            </table>
-                            {% endif %}
-                            
-                        </div>
+                        </table>
+                        {% endif %}
+                        
                     </div>
+                </div>
+
+                <!--div class="row my-4 m-o-responsive" style="background-color:#fff">
+                    <div class="col-lg-12 cuadro_titulo">
+                        <img src="/src/assets/iconos/pp2.png" style="margin:0 25px">Informes Financieros
+                    </div>
+                    <div class="col-lg-12 cuadro_contenido">
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit viverra per, 
+                            dignissim tortor suspendisse eu conubia lacus ac egestas vestibulum 
+                            feugiat, ornare est ligula nisi dictumst fames curae montes. Quisque 
+                            himenaeos sed donec habitant class litora, est dictum phasellus 
+                            cubilia parturient vitae, volutpat tincidunt sem platea sociosqu. 
+                            Suspendisse non auctor nullam mi est penatibus phasellus porttitor 
+                            massa tellus dignissim, porta cras habitant conubia ullamcorper netus 
+                            aliquet cum ligula curabitur ridiculus, vivamus eu aenean elementum 
+                            at taciti pellentesque varius sociis urna.
+                        </p>
+                    </div>
+                </div-->
+
+                <!--div class="row my-4 m-o-responsive" >
+
+                    <div class="col-lg-4 my-4 d-flex justify-content-center" style="flex-direction:column; align-items:center">
+                        <a href="https://candidatos.redciudadana.org/" target="_blank"><img src="/src/assets/imgs/placeholder.png"></a>
+                        <a href="https://candidatos.redciudadana.org/" target="_blank"><h5 class="titulo_partidos">CandiDatos</h5></a>
+                    </div>
+                    <div class="col-lg-4 my-4 d-flex justify-content-center" style="flex-direction:column; align-items:center">
+                        <a href="http://semaforoelectoral.redciudadana.org/" target="_blank"><img src="/src/assets/imgs/placeholder.png"></a>
+                        <a href="http://semaforoelectoral.redciudadana.org/" target="_blank"><h5 class="titulo_partidos">Semáforo Electoral</h5></a>
+                    </div>
+                    <div class="col-lg-4 my-4 d-flex justify-content-center" style="flex-direction:column; align-items:center">
+                        <a href="http://financiamiento.redciudadana.org/" target="_blank"><img src="/src/assets/imgs/placeholder.png"></a>
+                        <a href="http://financiamiento.redciudadana.org/" target="_blank"><h5 class="titulo_partidos">Financiamiento Electoral</h5></a>
+                    </div>
+                    
+                </div-->
+                <!--/div-->
+
+                <div id="presencia" class="tabcontent">
+                    
+                </div>
+
+                <div id="participar" class="tabcontent">
+                    
+                </div>
+
+                <div id="sanciones" class="tabcontent">
+                    
                 </div>
             </div>
         </div>
