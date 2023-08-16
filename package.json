@@ -1,5 +1,5 @@
 {
-  "name": "partidos_publicos_2023",
+  "name": "justiciapedia",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RedCiudadana/partidos_publicos_2023.git"
+    "url": "git+https://github.com/RedCiudadana/JusticiaPedia3.0.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RedCiudadana/partidos_publicos_2023/issues"
+    "url": "https://github.com/RedCiudadana/JusticiaPedia3.0/issues"
   },
-  "homepage": "https://github.com/RedCiudadana/partidos_publicos_2023#readme",
+  "homepage": "https://github.com/RedCiudadana/JusticiaPedia3.0#readme",
   "dependencies": {
     "moment": "^2.29.4",
     "nunjucks": "^3.2.3",
